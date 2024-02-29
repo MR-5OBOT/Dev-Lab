@@ -1,5 +1,7 @@
-\contentsline {subsection}{\numberline {0.1}Risk Management}{3}{}%
-\contentsline {subsection}{\numberline {0.2}Money Management}{3}{}%
-\contentsline {subsection}{\numberline {0.3}Money Management Example}{3}{}%
-\contentsline {section}{\numberline {1}Formulas}{4}{}%
-\contentsline {subsection}{\numberline {1.1}The combination of Risk-reward and Winrate}{4}{}%
+\contentsline {section}{\numberline {1}The Missing Piece Of The Puzzle}{2}{}%
+\contentsline {section}{\numberline {2}What Does Risk Management Really Mean?}{2}{}%
+\contentsline {subsection}{\numberline {2.1}Account Risk:}{2}{}%
+\contentsline {subsection}{\numberline {2.2}Money Management}{4}{}%
+\contentsline {subsection}{\numberline {2.3}Money Management Example}{4}{}%
+\contentsline {section}{\numberline {3}Formulas}{5}{}%
+\contentsline {subsection}{\numberline {3.1}The combination of Risk-reward and Winrate}{5}{}%
