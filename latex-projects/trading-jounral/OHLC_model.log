@@ -1,9 +1,9 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Arch Linux) (preloaded format=pdflatex 2024.3.3)  3 MAR 2024 22:51
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Arch Linux) (preloaded format=pdflatex 2024.3.3)  3 MAR 2024 22:38
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**daily-journal.tex
-(./daily-journal.tex
+**OHLC_model.tex
+(./OHLC_model.tex
 LaTeX2e <2022-11-01> patch level 1
 L3 programming layer <2023-02-22>
 (/usr/share/texmf-dist/tex/latex/base/article.cls
@@ -419,8 +419,8 @@ File: l3backend-pdftex.def 2023-01-16 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count292
 \l__pdf_internal_box=\box70
 )
-(./daily-journal.aux)
-\openout1 = `daily-journal.aux'.
+(./OHLC_model.aux)
+\openout1 = `OHLC_model.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 21.
 LaTeX Font Info:    ... okay on input line 21.
@@ -436,8 +436,7 @@ LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 21.
 LaTeX Font Info:    ... okay on input line 21.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 21.
 LaTeX Font Info:    ... okay on input line 21.
-
-(/usr/share/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+ (/usr/share/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count293
 \scratchdimen=\dimen266
@@ -503,43 +502,33 @@ LaTeX Font Info:    Trying to load font information for U+msb on input line 22.
 
 (/usr/share/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-) (./daily-journal.toc)
-\tf@toc=\write4
-\openout4 = `daily-journal.toc'.
-
+)
+Overfull \hbox (455.32701pt too wide) in paragraph at lines 53--56
+[]\OT1/cmr/m/n/10 IV- En-try Model : When My HTF Pd ar-ray has been reached , I
+ go To LTF and Look for : .....................................................
+................................................................... 
+ []
 
 [1
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
-<./figures/chart1.jpg, id=19, 963.6pt x 555.57562pt>
-File: ./figures/chart1.jpg Graphic file (type jpg)
-<use ./figures/chart1.jpg>
-Package pdftex.def Info: ./figures/chart1.jpg  used on input line 80.
-(pdftex.def)             Requested size: 424.82523pt x 244.93723pt.
- [2 <./figures/chart1.jpg>] (./daily-journal.aux) ) 
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] (./OHLC_model.aux) ) 
 Here is how much of TeX's memory you used:
- 13749 strings out of 477985
- 275056 string characters out of 5840059
- 1859388 words of memory out of 5000000
- 33705 multiletter control sequences out of 15000+600000
- 521185 words of font info for 66 fonts, out of 8000000 for 9000
+ 13708 strings out of 477985
+ 274434 string characters out of 5840059
+ 1854388 words of memory out of 5000000
+ 33676 multiletter control sequences out of 15000+600000
+ 517578 words of font info for 52 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 84i,11n,89p,416b,267s stack positions out of 10000i,1000n,20000p,200000b,200000s
- </home/mr5obot/.texlive/tex
-mf-var/fonts/pk/ljfour/jknappen/ec/tcrm1000.600pk></usr/share/texmf-dist/fonts/
-type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texmf-dist/fonts/type1/public/a
-msfonts/cm/cmbx12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr
-10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/sh
-are/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texmf-dist/
-fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/share/texmf-dist/fonts/type1/publ
-ic/amsfonts/cm/cmr7.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/c
-mr8.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsl10.pfb></usr/
-share/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/share/texmf-di
-st/fonts/type1/public/amsfonts/symbols/msam10.pfb>
-Output written on daily-journal.pdf (2 pages, 199962 bytes).
+ 84i,6n,89p,413b,235s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</usr/
+share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf-dis
+t/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texmf-dist/fonts/type1/p
+ublic/amsfonts/cm/cmr17.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/
+cm/cmti12.pfb>
+Output written on OHLC_model.pdf (1 page, 56193 bytes).
 PDF statistics:
- 75 PDF objects out of 1000 (max. 8388607)
- 46 compressed objects within 1 object stream
+ 31 PDF objects out of 1000 (max. 8388607)
+ 19 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 18 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 13 words of extra memory for PDF output out of 10000 (max. 10000000)
 

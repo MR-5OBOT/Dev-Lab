@@ -1,4 +1,5 @@
 \documentclass{article}
+\usepackage[utf8]{inputenc}
 \usepackage{graphicx}
 \usepackage{graphics}
 \usepackage{fancyhdr}
@@ -7,41 +8,82 @@
 \usepackage{longtable}
 \usepackage{amssymb}
 \usepackage{enumitem} % For customizing itemize lists
+\usepackage{tabularx}
+\usepackage{tikz}
+ \usepackage{dashrule}
 
 
 \title{The Only Way To Improve Your Edge: Daily Journals for (EURUSD)}
 \author{MR5OBOT \\ \textit{"It starts with hard work, but it ends with smart work."}}
 \date{\today}
 
+
 \begin{document}
 \maketitle
 \pagestyle{fancy}
 \tableofcontents
 
-\footnote{Twitter [ @MR-5OBOT ]}
-% \includegraphics[width=0.5\textwidth]{./figures/w-profiles.png}
-\newpage
+\vspace{0.5cm}
 
+\noindent\hdashrule[0.1ex]{\linewidth}{0.1pt}{2mm} 
 % --------------------------------------------------------------------------------------
 \section{The Journal} 
-
-\begin{itemize}[label={}]
-    \item \lbrack\ \rbrack unchecked
-    \item \lbrack x\rbrack checked
+\begin{enumerate}
+  \item ERL -- IRL (Bias): 
+\begin{itemize} 
+  \item LTP = \hspace{0.3pt} Daily Internal to External | The why
+  \item ITP = \hspace{0.3pt} 1H Internal to External | The how 
+  \item STP = \hspace{0.3pt} 5M MMXM | The Entry 
 \end{itemize}
-\subsection{Format}
+
+    \item Weekly Profile (confeluence)  : 
+
+\begin{itemize} 
+  \item Tuesday = \hspace{0.3pt} Classic Expansion | low of the week
+\end{itemize}
+
+    \item Daily Profile (Bias Confirmation)  : 
+\begin{itemize} 
+  \item London reveral = \hspace{0.3pt} 15M | Change in stat of delivery
+\end{itemize}
+
+\end{enumerate}
+
+% --------------------------------------------------------------------------------------
 \subsection{The Logs}
 
-% --------------------------------------------------------------------------------------
-\subsection{Charts}
+\renewcommand{\arraystretch}{1.5} % table padding vertical space 
+\setlength{\tabcolsep}{10pt} % table padding horizontal space
 
-% --------------------------------------------------------------------------------------
-\newpage
+\vspace{0.5cm}
+\begin{center}
+\begin{tabular}{|c|c|c|c|c|c|c|}
+  \hline
+  SYMBOL & SESSION & ENTRY TIME & ENTRY EXIT & R-R & RISK \% & OUTCOME \\ 
+  \hline 
+  EURUSD & LOKZN & 02:49AM & 03:43AM & 2R & 0.5\% & WIN \\  
+  \hline
+\end{tabular}
+\end{center}
+\vspace{1cm}
+
 \footnote{Twitter [ @MR-5OBOT ]}
 
+% ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+\subsection{Charts}
+\vspace{0.4cm}
+
+\( \rightrightarrows \) \hspace{0.1cm}LTP : (Daily ERL to IRL)
+
+\vspace{0.5cm}
+\includegraphics[width=0.9\textwidth]{./figures/chart1.jpg}
+
+\footnote{Twitter [ @MR-5OBOT ]}
+% --------------------------------------------------------------------------------------
 \section{Summary}
 \subsection{Trades Outcome}
+\subsection{Notes:}
 
 % --------------------------------------------------------------------------------------
-
 \end{document}
