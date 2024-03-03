@@ -1,0 +1,9 @@
+# rofi -dmenu configurations Notes:
+
+# commands for scripts outside config.ini
+
+-rofi -dmenu (for making a selection menu)
+-flag -l (number of lines to show)
+-prompt -p (Specify the prompt to show in  dmenu  mode.)
+-flag -i (Makes dmenu searches case-insensitive)
+
