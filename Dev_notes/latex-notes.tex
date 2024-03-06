@@ -6,7 +6,7 @@
     \item \lbrack x\rbrack checked
 \end{itemize}
 
-# simple way to make a checkbox for like todo lists
+% simple way to make a checkbox for like todo lists
 \begin{itemize}[label={}]
   \item \lbrack\ \rbrack \hspace{0.2cm}  LTP     = \hspace{0.3pt} Daily Internal to External 
   \item \lbrack\ \rbrack  \hspace{0.2cm} ITP = \hspace{0.3pt}   1H Internal to External
@@ -14,8 +14,33 @@
 \end{itemize}
 
 
-# script to make a normal vertical line on the page
+% script to make a normal vertical line on the page
 \noindent\makebox[\linewidth]{\rule{\paperwidth}{0.1pt}}
 
-# dashed line
+% dashed line
 \noindent\hdashrule[0.5ex]{\linewidth}{0.4pt}{1mm}
+
+
+% simple way to make a table
+\renewcommand{\arraystretch}{1.5} % table padding vertical space 
+\setlength{\tabcolsep}{10pt} % table padding horizontal space
+
+\vspace{0.5cm}
+\begin{center}
+\begin{tabular}{|c|c|c|c|c|c|c|}
+  \hline
+  SYMBOL & SESSION & ENTRY TIME & ENTRY EXIT & R-R & RISK \% & OUTCOME \\ 
+  \hline 
+  EURUSD & LOKZN & 02:49AM & 03:43AM & 2R & 0.5\% & WIN \\  
+  \hline
+\end{tabular}
+\end{center}
+\vspace{1cm}
+
+\footnote{Twitter [ @MR-5OBOT ]}
+
+% show a section in TOC even if it's have \section*{section name}
+\addcontentsline{toc}{subsection}{\indent 1.2 Charts}
+
+
+

@@ -1,6 +1,0 @@
-\contentsline {section}{\numberline {1}The Journal}{1}{}%
-\contentsline {subsection}{\numberline {1.1}The Logs}{1}{}%
-\contentsline {subsection}{\numberline {1.2}Charts}{2}{}%
-\contentsline {section}{\numberline {2}Summary}{2}{}%
-\contentsline {subsection}{\numberline {2.1}Trades Outcome}{2}{}%
-\contentsline {subsection}{\numberline {2.2}Notes:}{2}{}%

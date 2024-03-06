@@ -1,0 +1,144 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+\usepackage{graphicx}
+\usepackage{fancyhdr}
+\usepackage[margin=2cm]{geometry}
+\usepackage{array}
+\usepackage{longtable}
+\usepackage{amssymb}
+\usepackage{enumitem} % For customizing itemize lists
+\usepackage{tabularx}
+\usepackage{tikz}
+\usepackage{dashrule}
+\usepackage[most]{tcolorbox}
+
+
+\title{The Only Way To Improve Your Edge: Daily Journals (EURUSD)}
+\author{MR5OBOT \\ \textit{"It starts with hard work, but it ends with smart work."}}
+\date{\today}
+
+
+\begin{document}
+\maketitle
+\pagestyle{fancy}
+% \tableofcontents
+\noindent\hdashrule[0.2ex]{\linewidth}{0.2pt}{1mm} 
+
+\newtcolorbox{notebox}{
+    colback=gray!10, % Light grey background color
+    colframe=gray!20, % Border color
+    arc=0mm, % No rounded corners
+    boxrule=0.5mm, % Border thickness
+    left=5mm, % Padding on the left side
+    right=5mm, % Padding on the right side
+    top=1mm,
+    bottom=1.5mm,
+}
+
+\section{The Journal} 
+\vspace{0.3cm}
+
+\begin{enumerate}
+\begin{notebox}
+  \item ERL -- IRL (Bias): 
+\end{notebox}
+
+\begin{itemize} 
+  \item LTP = \hspace{0.3pt} Daily Internal to External | The why \vspace{0.2cm}
+  \item ITP = \hspace{0.3pt} 1H Internal to External | The how \vspace{0.2cm}
+  \item STP = \hspace{0.3pt} 5M MMXM | The Entry (second distribution phase) \vspace{0.2cm}
+\end{itemize}
+
+\begin{notebox}
+    \item Weekly Profile (confeluence)  : 
+\end{notebox}
+
+\begin{itemize} 
+  \item Wednesday = \hspace{0.3pt} Classic Expansion | Continuation
+\end{itemize}
+
+\begin{notebox}
+    \item Daily Profile (Bias Confirmation)  : 
+\end{notebox}
+
+\begin{itemize} 
+  \item London Continuation = \hspace{0.3pt} 5M |  FVG entry
+  \item Midnight Open = \hspace{0.3pt} far from entry (invalid po3 logic)
+
+\end{itemize}
+\end{enumerate}
+
+\section{The Logs}
+\vspace{0.3cm}
+
+\renewcommand{\arraystretch}{1.5} % table padding vertical space 
+\setlength{\tabcolsep}{10pt} % table padding horizontal space
+
+\begin{center}
+\begin{tabular}{|c|c|c|c|c|c|c|}
+  \hline
+  SYMBOL & SESSION & ENTRY TIME & ENTRY EXIT & R-R & RISK \% & OUTCOME \\ 
+  \hline 
+  EURUSD & LOKZN & 04:10AM & 05:20AM & 2R & 0.5\% & WIN \\  
+  \hline
+\end{tabular}
+\end{center}
+\vspace{0.1cm}
+
+% Define a new tcolorbox style for the "Notes" section
+\newtcolorbox{notesbox}{
+    colback=yellow!50, % Light yellow background color
+    colframe=yellow!10, % Slightly darker yellow border color
+    boxrule=0.5pt, % Border thickness
+    arc=2pt, % Rounded corners
+    left=5pt, % Left padding
+    right=5pt, % Right padding
+    top=3pt, % Top padding
+    bottom=3pt % Bottom padding
+}
+\begin{notebox}
+\subsection{Notes:}
+
+\begin{notesbox}
+\noindent On general it was a good trade, but i'm not happy with it bc if the entry was far from Midnight Open and it's close to my Target, so i'm lucky when i didn't be the fuel for the price to go upside
+\end{notesbox}
+\end{notebox}
+
+\footnote{Twitter [ @MR-5OBOT ]}
+\newpage
+
+\vspace{0.4cm}
+
+\section{Charts}
+
+\begin{figure}[h]
+\begin{notebox}
+\noindent \( \rightrightarrows \) \hspace{0.1cm}LTP : | [ Daily ERL to IRL ] 
+  \begin{center}
+    \includegraphics[scale=0.31]{./figures/EURUSD_2024-03-06_Daily.png}
+  \end{center}
+\end{notebox}
+
+\begin{notebox}
+   \( \rightrightarrows \) \hspace{0.1cm}ITP : | [ 1H ERL to IRL ]
+  \begin{center}
+    \includegraphics[scale=0.31]{./figures/EURUSD_2024-03-06_4H.png}
+  \end{center}
+\end{notebox}
+\end{figure}
+
+\footnote{Twitter [ @MR-5OBOT ]}
+\newpage
+
+\subsection{The Entry}
+\begin{figure}[h]
+\begin{notebox}
+  \( \rightrightarrows \) \hspace{0.1cm}STP : | [ 15M Excution ]
+   \begin{center}
+    \includegraphics[scale=0.35]{./figures/EURUSD_2024-03-06_5M_Entry.png}
+  \end{center}
+\end{notebox}
+\end{figure}
+
+\footnote{Twitter [ @MR-5OBOT ]}
+\end{document}
