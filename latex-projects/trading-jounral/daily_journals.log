@@ -1,9 +1,9 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Arch Linux) (preloaded format=pdflatex 2024.3.3)  6 MAR 2024 23:54
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Arch Linux) (preloaded format=pdflatex 2024.3.3)  7 MAR 2024 17:50
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**daily_journals_TEMPLATE.tex
-(./daily_journals_TEMPLATE.tex
+**daily_journals.tex
+(./daily_journals.tex
 LaTeX2e <2022-11-01> patch level 1
 L3 programming layer <2023-02-22>
 (/usr/share/texmf-dist/tex/latex/base/article.cls
@@ -638,8 +638,8 @@ File: l3backend-pdftex.def 2023-01-16 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count322
 \l__pdf_internal_box=\box86
 )
-(./daily_journals_TEMPLATE.aux)
-\openout1 = `daily_journals_TEMPLATE.aux'.
+(./daily_journals.aux)
+\openout1 = `daily_journals.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 21.
 LaTeX Font Info:    ... okay on input line 21.
@@ -723,55 +723,59 @@ LaTeX Font Info:    Trying to load font information for U+msb on input line 22.
 
 (/usr/share/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-) [1
+)
+Underfull \hbox (badness 10000) in paragraph at lines 103--105
+
+ []
+
+[1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
-<./figures/EURUSD_2024-03-06_Daily.png, id=54, 1391.1975pt x 750.805pt>
-File: ./figures/EURUSD_2024-03-06_Daily.png Graphic file (type png)
-<use ./figures/EURUSD_2024-03-06_Daily.png>
-Package pdftex.def Info: ./figures/EURUSD_2024-03-06_Daily.png  used on input l
-ine 118.
-(pdftex.def)             Requested size: 431.26677pt x 232.74715pt.
-<./figures/EURUSD_2024-03-06_4H.png, id=56, 1391.1975pt x 699.61375pt>
-File: ./figures/EURUSD_2024-03-06_4H.png Graphic file (type png)
-<use ./figures/EURUSD_2024-03-06_4H.png>
-Package pdftex.def Info: ./figures/EURUSD_2024-03-06_4H.png  used on input line
- 125.
-(pdftex.def)             Requested size: 431.26677pt x 216.87802pt.
- [2 <./figures/EURUSD_2024-03-06_Daily.png> <./figures/EURUSD_2024-03-06_4H.png
->]
-<./figures/EURUSD_2024-03-06_5M_Entry.png, id=64, 1347.0325pt x 740.7675pt>
-File: ./figures/EURUSD_2024-03-06_5M_Entry.png Graphic file (type png)
-<use ./figures/EURUSD_2024-03-06_5M_Entry.png>
-Package pdftex.def Info: ./figures/EURUSD_2024-03-06_5M_Entry.png  used on inpu
-t line 138.
-(pdftex.def)             Requested size: 471.46844pt x 259.2725pt.
+<./figures/NQ1!_2024-03-07_NQ_daly.png, id=54, 1347.0325pt x 740.7675pt>
+File: ./figures/NQ1!_2024-03-07_NQ_daly.png Graphic file (type png)
+<use ./figures/NQ1!_2024-03-07_NQ_daly.png>
+Package pdftex.def Info: ./figures/NQ1!_2024-03-07_NQ_daly.png  used on input l
+ine 120.
+(pdftex.def)             Requested size: 404.11287pt x 222.23196pt.
+<./figures/NQ1!_2024-03-07_1H.png, id=56, 1347.0325pt x 740.7675pt>
+File: ./figures/NQ1!_2024-03-07_1H.png Graphic file (type png)
+<use ./figures/NQ1!_2024-03-07_1H.png>
+Package pdftex.def Info: ./figures/NQ1!_2024-03-07_1H.png  used on input line 1
+28.
+(pdftex.def)             Requested size: 404.11287pt x 222.23196pt.
+ [2 <./figures/NQ1!_2024-03-07_NQ_daly.png> <./figures/NQ1!_2024-03-07_1H.png>]
+<./figures/NQ1!_2024-03-07_5M_entry.png, id=64, 1347.0325pt x 689.57625pt>
+File: ./figures/NQ1!_2024-03-07_5M_entry.png Graphic file (type png)
+<use ./figures/NQ1!_2024-03-07_5M_entry.png>
+Package pdftex.def Info: ./figures/NQ1!_2024-03-07_5M_entry.png  used on input 
+line 141.
+(pdftex.def)             Requested size: 471.46844pt x 241.3553pt.
 
-Overfull \hbox (7.97295pt too wide) in paragraph at lines 138--139
+Overfull \hbox (7.97295pt too wide) in paragraph at lines 141--142
  [] 
  []
 
-[3 <./figures/EURUSD_2024-03-06_5M_Entry.png>] (./daily_journals_TEMPLATE.aux) 
-) 
+[3 <./figures/NQ1!_2024-03-07_5M_entry.png>] (./daily_journals.aux) ) 
 Here is how much of TeX's memory you used:
- 21721 strings out of 477985
- 462464 string characters out of 5840059
+ 21720 strings out of 477985
+ 462304 string characters out of 5840059
  1861388 words of memory out of 5000000
- 41541 multiletter control sequences out of 15000+600000
+ 41540 multiletter control sequences out of 15000+600000
  520877 words of font info for 65 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 86i,11n,96p,425b,992s stack positions out of 10000i,1000n,20000p,200000b,200000s
- </home/mr5obot/.texlive/texmf-var/fonts/pk/ljfour/jknappen/ec/tcrm1000.600pk>
-</usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/te
-xmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf-dist/fonts/
-type1/public/amsfonts/cm/cmr12.pfb></usr/share/texmf-dist/fonts/type1/public/am
-sfonts/cm/cmr17.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.
-pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/
-texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texmf-dist/fonts
-/type1/public/amsfonts/cm/cmsl10.pfb></usr/share/texmf-dist/fonts/type1/public/
-amsfonts/cm/cmti12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/symbo
-ls/msam10.pfb>
-Output written on daily_journals_TEMPLATE.pdf (3 pages, 251586 bytes).
+ 86i,11n,96p,416b,992s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ </home/mr
+5obot/.texlive/texmf-var/fonts/pk/ljfour/jknappen/ec/tcrm1000.600pk></usr/share
+/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texmf-dist/fo
+nts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf-dist/fonts/type1/publi
+c/amsfonts/cm/cmr12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/c
+mr17.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/s
+hare/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texmf-dist/
+fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texmf-dist/fonts/type1/publ
+ic/amsfonts/cm/cmsl10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm
+/cmti12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.p
+fb>
+Output written on daily_journals.pdf (3 pages, 244476 bytes).
 PDF statistics:
  115 PDF objects out of 1000 (max. 8388607)
  58 compressed objects within 1 object stream
