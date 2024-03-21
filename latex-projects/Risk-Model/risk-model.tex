@@ -1,18 +1,23 @@
 \documentclass[10pt]{article}
 \usepackage[utf8]{inputenc}
 \usepackage{graphicx}
+\graphicspath{{~/Pictures/latex/}} % setting the graphics path
 \usepackage{fancyhdr}
+\usepackage{caption} % for captions
 \usepackage[margin=2.9cm]{geometry}
+\geometry{top=0.5in}
 \usepackage{array}
 \usepackage{longtable}
 \usepackage{amssymb}
 \usepackage{enumitem} % For customizing itemize lists
 \usepackage{tabularx}
-\usepackage{tikz}
 \usepackage{dashrule}
 \usepackage[most]{tcolorbox}
 \usepackage{xcolor}
-\usepackage{colortbl}
+\usepackage{colortbl} % for coloring columns
+\usepackage{adjustbox}
+\usepackage{multirow}
+
 
 \title{The Consistency Key: A Full Risk Management Model\\ for Forex \& Futures}
 \author{MR5OBOT \\ \textit{"Risk Management is your only shield against ultimate failure.."}}
@@ -60,7 +65,7 @@
 }
 
 
-\section*{The missing piece of the puzzel}
+\section*{The Missing Piece Of The Puzzel}
 \begin{notebox}
 | What has your Trading results shown you over the course of your career as a Trader? Are you atruggling?  have you seen your account experience devastating drawdown or worse... blow it out? I purposely placed this topic at the beginning ogf the core material as I believe it is the most vital component to long term success in trading Forex... or any other asset class! \\
   \\ \indent{ I am confident the piece of the puzzel you are looking for is Risk Management. Have you risked more than 1\% of your total equity on any one trade? How about just about every one of them? Have you tried on any over-leverage your account to make the losses back right away... only to find it resulted in steeper losses and deeper in depression?}  \\
@@ -86,39 +91,62 @@
 \vspace{0.2cm}
 \begin{notesbox}
   \small{  So we have defined our risk per trade as 1\% | 100\$ of total equity 10000\$ \\
-  Then the next section will cover \underline{Risk Reward Ratio}}
+  The next page will cover the importance of risk less than 1\%. } 
 \end{notesbox}
 
 \footnote{Twitter [ @MR-5OBOT ]}
 \newpage 
 
+
+\begin{center}
+\begin{figure}
+   \includegraphics[width=\textwidth]{risk10.png}
+  % \captionof{figure}{10\% Risk}
+\end{figure}
+\end{center}
+
+\small{\begin{tcolorbox}[colback=blue!10!white,colframe=red!70!black,title=Question]
+    Do you think you could deal with this drawdown and fell confident you'd recover from it ?
+\end{tcolorbox}}
+\hfill
+
+\subsubsection*{Why sound \underline{Money}\hspace{0.01cm} \underline{Management} Is Crucial ...}
+\vspace{0.2cm}
+
 \renewcommand{\arraystretch}{1.5} % table padding vertical space 
 \setlength{\tabcolsep}{10pt} % table padding horizontal space
 
+\begin{adjustbox}{left}
 \begin{tabular}{|c|c|c|}
-  \cline{1-2}
- \rowcolor{gray!30} Equity & Risk 1\% \\
-  \hline 
-  \$ 9,900.00 & NYKZN & Loss 1 \\  
-  \hline 
-  \$ 9,800.00 & NYKZN & Loss 2 \\  
-  \hline            
-  \$ 9,700.00 & NYKZN & Loss 3 \\  
-  \hline            
-  \$ 9,600.00 & NYKZN & Loss 4 \\  
-  \hline            
-  \$ 9,600.00 & NYKZN & Loss 5 \\  
-  \hline            
-  \$ 9,500.00 & NYKZN & Loss 6 \\  
-  \hline            
-  \$ 9,400.00 & NYKZN & Loss 7 \\  
-  \hline            
-  \$ 9,300.00 & NYKZN & Loss 8 \\  
-  \hline
+\cline{2-3}
+  \multicolumn{1}{c|}{} & Scenario A (1\% Risk) & Scenario B (5\% Risk) \\
+\hline
+Equity - Start & \$10.000 & \$10.000 \\
+\hline
+Lossing Trade \#1 & \$9,900.00 & \$9,500 \\
+\hline                     
+Lossing Trade \#2 & \$9,801.00 & \$ \\
+\hline                     
+Lossing Trade \#3 & \$9,702.00 & \$ \\
+\hline                     
+Lossing Trade \#4 & \$9,604.00 & \$ \\
+\hline                     
+Lossing Trade \#5 & \$9,507.00 & \$ \\
+\hline
+  Cumulative Loss - \$ & (\$493) & (\$) \\
+\hline
+Cumulative Loss - \% & -4.93\% & \$ \\
+\hline
+\% Recepture to B/E & 5.18\% & \$ \\
+\hline
+
 \end{tabular}
 
+\end{adjustbox}
+
 \newpage
-\subsection*{Position Sizing}
+\subsection{Position Sizing}
+
 % \begin{itemize} 
 %   \item Risk per Trade = 1\% Max        \vspace{0.2cm}
 %   \item Max Daily Trades = 2 Trades     \vspace{0.2cm}
@@ -130,7 +158,7 @@
 \renewcommand{\arraystretch}{1.5} % table padding vertical space 
 \setlength{\tabcolsep}{10pt} % table padding horizontal space
 
-\subsection*{What Seperates Professional Traders From You?}
+\subsection{What Seperates Professional Traders From You?}
 \vspace{0.3cm}
 \begin{center}
   \small{Combinations of | [ Win/Loss Over 10 Trades ]} \\
