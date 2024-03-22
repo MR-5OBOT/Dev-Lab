@@ -4,7 +4,7 @@
 \graphicspath{{~/Pictures/latex/}} % setting the graphics path
 \usepackage{fancyhdr}
 \usepackage{caption} % for captions
-\usepackage[margin=2.9cm]{geometry}
+\usepackage[margin=4cm]{geometry}
 \geometry{top=0.5in}
 \usepackage{array}
 \usepackage{longtable}
@@ -13,6 +13,7 @@
 \usepackage{tabularx}
 \usepackage{dashrule}
 \usepackage[most]{tcolorbox}
+\usepackage{amssymb}
 \usepackage{xcolor}
 \usepackage{colortbl} % for coloring columns
 \usepackage{adjustbox}
@@ -20,7 +21,7 @@
 
 
 \title{The Consistency Key: A Full Risk Management Model\\ for Forex \& Futures}
-\author{MR5OBOT \\ \textit{"Risk Management is your only shield against ultimate failure.."}}
+\author{MR5OBOT }
 \date{\today}
 
 
@@ -63,88 +64,68 @@
     top=3pt, % Top padding
     bottom=3pt % Bottom padding
 }
-
-
-\section*{The Missing Piece Of The Puzzel}
+\subsubsection*{What Does Risk Management Really Mean?}
+\vspace{0.1cm}
 \begin{notebox}
-| What has your Trading results shown you over the course of your career as a Trader? Are you atruggling?  have you seen your account experience devastating drawdown or worse... blow it out? I purposely placed this topic at the beginning ogf the core material as I believe it is the most vital component to long term success in trading Forex... or any other asset class! \\
-  \\ \indent{ I am confident the piece of the puzzel you are looking for is Risk Management. Have you risked more than 1\% of your total equity on any one trade? How about just about every one of them? Have you tried on any over-leverage your account to make the losses back right away... only to find it resulted in steeper losses and deeper in depression?}  \\
-  \\ \indent{ At the top of the list of crucial components to seccessful and cosistent trading is the concept of Risk Management.  Riks Management is basically divided into two core principles... Money Management an Trade Management .  These areas are far greater in importance than your treasured little Trading System or patterns.}\
+\small It's The amount of Risk the Trader is wailling to assume. It should be limited to 1\% of total equity or less. To calculate the Risk per trade use the following formula...
 \end{notebox}
 
-\subsubsection*{What Does \underline{Risk Management} Really Mean?}
-\begin{violetbox}
-\small It's The amount of Risk the Trader is wailling to assume. It should be limited to 1\% of total equity or less. To calculate the Risk per trade use the following formula...
-\end{violetbox}
-
 \begin{itemize}
-  \item \textbf{Account balance} : $ 10000\$ $
-  \item  \textbf{Percentage Risk} : $ 1\% $ 
+  \small{  \item \textbf{Account balance} : $ 10000\$ $}
+  \small{  \item  \textbf{Percentage Risk} : $ 1\% $ }
+
+\begin{center}
+  \small{ \textbf{ \underline{The Formula}}}
+  \[ ( 10000\$ * 1\% ) = 10000 * 0.01 = 100\$ \]
+\end{center}
 \end{itemize}
 
+\begin{violetbox}
+\small Here's an example of bad risk Management with  a 8 losses in a row - If you think this not going to happen to you... you're going to be very disappointed friend.
+\end{violetbox}
+
+\begin{figure}[h]
 \begin{center}
-   \textbf{ \underline{The Formula}}
-\vspace{0.1cm}
-  \[ ( 10000\$ * 1\% ) = \frac{10000}{0.01} = 100\$ \]
-\end{center}
-
-\vspace{0.2cm}
-\begin{notesbox}
-  \small{  So we have defined our risk per trade as 1\% | 100\$ of total equity 10000\$ \\
-  The next page will cover the importance of risk less than 1\%. } 
-\end{notesbox}
-
-\footnote{Twitter [ @MR-5OBOT ]}
-\newpage 
-
-
-\begin{center}
-\begin{figure}
-   \includegraphics[width=\textwidth]{risk10.png}
+   \includegraphics[scale=0.3]{10.png}
   % \captionof{figure}{10\% Risk}
-\end{figure}
 \end{center}
+\end{figure}
 
-\small{\begin{tcolorbox}[colback=blue!10!white,colframe=red!70!black,title=Question]
-    Do you think you could deal with this drawdown and fell confident you'd recover from it ?
+\small{\begin{tcolorbox}[colback=gray!20!white,colframe=red!70!black,title=Question]
+    Do you think you could deal with this drawdown and fell confident and you'd recover from it ?
 \end{tcolorbox}}
-\hfill
+\newpage
 
-\subsubsection*{Why sound \underline{Money}\hspace{0.01cm} \underline{Management} Is Crucial ...}
-\vspace{0.2cm}
+\center{\subsubsection*{$\rightarrow$ Why Sound \underline{Money}\hspace{0.01cm} \underline{Management} Is Crucial ...}}
+\vspace{0.3cm}
 
 \renewcommand{\arraystretch}{1.5} % table padding vertical space 
 \setlength{\tabcolsep}{10pt} % table padding horizontal space
 
-\begin{adjustbox}{left}
+\begin{center}
 \begin{tabular}{|c|c|c|}
 \cline{2-3}
-  \multicolumn{1}{c|}{} & Scenario A (1\% Risk) & Scenario B (5\% Risk) \\
+  \multicolumn{1}{c|}{} & \textbf{Scenario A (1\% Risk)} & \textbf{Scenario B (5\% Risk)} \\
 \hline
-Equity - Start & \$10.000 & \$10.000 \\
+\textbf{Equity - Start} & \$10.000 & \$10.000 \\
 \hline
 Lossing Trade \#1 & \$9,900.00 & \$9,500 \\
 \hline                     
-Lossing Trade \#2 & \$9,801.00 & \$ \\
+Lossing Trade \#2 & \$9,801.00 & \$9,025 \\
 \hline                     
-Lossing Trade \#3 & \$9,702.00 & \$ \\
+Lossing Trade \#3 & \$9,702.00 & \$8,574 \\
 \hline                     
-Lossing Trade \#4 & \$9,604.00 & \$ \\
+Lossing Trade \#4 & \$9,604.00 & \$8,145 \\
 \hline                     
-Lossing Trade \#5 & \$9,507.00 & \$ \\
+Lossing Trade \#5 & \$9,507.00 & \$7,738 \\
 \hline
-  Cumulative Loss - \$ & (\$493) & (\$) \\
+  Cumulative Loss - \$ & \textcolor{red}{( \$493 )} & \textcolor{red}{( \$2,262 )} \\
 \hline
-Cumulative Loss - \% & -4.93\% & \$ \\
+Cumulative Loss - \% & -4.93\% & 22.62\% \\
 \hline
-\% Recepture to B/E & 5.18\% & \$ \\
-\hline
-
 \end{tabular}
+\end{center}
 
-\end{adjustbox}
-
-\newpage
 \subsection{Position Sizing}
 
 % \begin{itemize} 
