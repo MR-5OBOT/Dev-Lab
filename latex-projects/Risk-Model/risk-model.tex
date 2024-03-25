@@ -4,7 +4,7 @@
 \graphicspath{{~/Pictures/latex/}} % setting the graphics path
 \usepackage{fancyhdr}
 \usepackage{caption} % for captions
-\usepackage[margin=4cm]{geometry}
+\usepackage[margin=2.2cm]{geometry}
 \geometry{top=0.5in}
 \usepackage{array}
 \usepackage{longtable}
@@ -13,6 +13,7 @@
 \usepackage{tabularx}
 \usepackage{dashrule}
 \usepackage[most]{tcolorbox}
+\usepackage{hyperref}
 \usepackage{amssymb}
 \usepackage{xcolor}
 \usepackage{colortbl} % for coloring columns
@@ -29,15 +30,19 @@
 \maketitle
 % \pagestyle{fancy}
 % \tableofcontents
-\noindent\hdashrule[0.2ex]{\linewidth}{0.1pt}{1mm} 
+% \noindent\hdashrule[0.1ex]{\linewidth}{0.1pt}{0.5mm} 
+%remove the footnote number
+\makeatletter
+\def\@makefnmark{\hbox{}}
+\makeatother
 
 \newtcolorbox{notebox}{
     colback=gray!8, % Light grey background color
-    colframe=gray!10, % Border color
+    colframe=gray!5, % Border color
     arc=0mm, % No rounded corners
     boxrule=0.2mm, % Border thickness
-    left=2mm, % Padding on the left side
-    right=2mm, % Padding on the right side
+    left=1mm, % Padding on the left side
+    right=1mm, % Padding on the right side
     top=1mm,
     bottom=1.5mm,
 }
@@ -45,9 +50,9 @@
 % Define a new tcolorbox style for the "Notes" section
 \newtcolorbox{notesbox}{
     colback=yellow!30, % Light yellow background color
-    colframe=yellow!10, % Slightly darker yellow border color
+    colframe=yellow!6, % Slightly darker yellow border color
     boxrule=0.5pt, % Border thickness
-    arc=2pt, % Rounded corners
+    arc=0pt, % Rounded corners
     left=5pt, % Left padding
     right=5pt, % Right padding
     top=3pt, % Top padding
@@ -56,58 +61,71 @@
 
 \newtcolorbox{violetbox}{
     colback=violet!10, % Light yellow background color
-    colframe=violet!10, % Slightly darker yellow border color
-    boxrule=0.5pt, % Border thickness
-    arc=2pt, % Rounded corners
+    colframe=violet!5, % Slightly darker yellow border color
+    boxrule=0pt, % Border thickness
+    arc=0pt, % Rounded corners
     left=5pt, % Left padding
     right=5pt, % Right padding
     top=3pt, % Top padding
     bottom=3pt % Bottom padding
 }
-\subsubsection*{What Does Risk Management Really Mean?}
+
+\footnotetext{Twitter [ @MR-5OBOT ]}
+
+\section*{What Does Risk Management Really Mean?}
 \vspace{0.1cm}
-\begin{notebox}
-\small It's The amount of Risk the Trader is wailling to assume. It should be limited to 1\% of total equity or less. To calculate the Risk per trade use the following formula...
-\end{notebox}
+\small Risk management is the process of identifying, assessing, and controlling risks associated with an trading activities. It involves the identification and analysis of risks, followed by the implementation of strategies to minimize the impact of those risks, It is essential to any business, as it helps to protect the organization from financial losses and other negative impacts.
 
-\begin{itemize}
-  \small{  \item \textbf{Account balance} : $ 10000\$ $}
-  \small{  \item  \textbf{Percentage Risk} : $ 1\% $ }
+\subsection*{Risk Calculation}
+\vspace{0.1cm}
+\small When trading, risk is calculated by taking into account the amount of money that can be lost in a single trade, the number of trades that can be made, and the probability of success for each trade.
+\small This means that if you have \$10,000 in your account, you should not risk more than \$100 per trade. This is a good rule of thumb that will help you to protect your capital and limit your risk.
+\vspace{0.1cm}
 
-\begin{center}
-  \small{ \textbf{ \underline{The Formula}}}
-  \[ ( 10000\$ * 1\% ) = 10000 * 0.01 = 100\$ \]
-\end{center}
-\end{itemize}
+\subsubsection*{$\rightarrow$ Variables :}
+\vspace{0.1cm}
+\begin{enumerate}
+  \small{  \item \textbf{Account balance}} : The amount of money in your account.
+\vspace{0.1cm}
+  \small{  \item  \textbf{Percentage Risk}} : The percentage of your account that you are willing to lose. \\\\
+\vspace{0.1cm}
+    \small { \textbf{$\rightarrow$  Risk in Amount} \$ : The amount of money by \$ that you are willing to lose.}
+\vspace{0.1cm}
+  \small{  \item  \textbf{Stop Loss Size}: The amount of pips'points your stop loss is set to.}
+\vspace{0.1cm}
+  \small{  \item  \textbf{Pip $\wedge$ Point Value} : The amount of money that is equivalent to one pip or one point of currency.}
+\end{enumerate}
+\vspace{0.2cm}
 
 \begin{violetbox}
 \small Here's an example of bad risk Management with  a 8 losses in a row - If you think this not going to happen to you... you're going to be very disappointed friend.
 \end{violetbox}
 
+
 \begin{figure}[h]
 \begin{center}
-   \includegraphics[scale=0.3]{10.png}
-  % \captionof{figure}{10\% Risk}
+   \includegraphics[scale=0.4]{10.png}
+  \captionof{figure}{Example of why risk management is important}
 \end{center}
 \end{figure}
-
-\small{\begin{tcolorbox}[colback=gray!20!white,colframe=red!70!black,title=Question]
-    Do you think you could deal with this drawdown and fell confident and you'd recover from it ?
-\end{tcolorbox}}
 \newpage
 
-\center{\subsubsection*{$\rightarrow$ Why Sound \underline{Money}\hspace{0.01cm} \underline{Management} Is Crucial ...}}
-\vspace{0.3cm}
+\subsubsection*{Why Sound Money Management is Important?}
+
+\begin{notebox}
+  \small{In the presented scenario, where two traders started with \$10,000 each, the difference in risk management strategies becomes evident. While Trader A, who adhered to a 1\% risk per trade, experienced a cumulative loss of only \$493, equivalent to a modest 4.93\% decrease in equity after five losing trades, Trader B, who risked 5\% per trade, faced a substantial cumulative loss of \$2,262, representing a significant 22.62\% reduction in equity. This stark contrast underscores the critical importance of prudent risk management practices, such as limiting risk to less than 1\% per trade, to preserve capital and navigate volatile market conditions effectively...}
+\end{notebox}
 
 \renewcommand{\arraystretch}{1.5} % table padding vertical space 
 \setlength{\tabcolsep}{10pt} % table padding horizontal space
 
-\begin{center}
+\begin{table}[h]
+\centering
 \begin{tabular}{|c|c|c|}
 \cline{2-3}
   \multicolumn{1}{c|}{} & \textbf{Scenario A (1\% Risk)} & \textbf{Scenario B (5\% Risk)} \\
 \hline
-\textbf{Equity - Start} & \$10.000 & \$10.000 \\
+\textbf{Equity - Start} & \$10,000 & \$10,000 \\
 \hline
 Lossing Trade \#1 & \$9,900.00 & \$9,500 \\
 \hline                     
@@ -124,9 +142,12 @@ Lossing Trade \#5 & \$9,507.00 & \$7,738 \\
 Cumulative Loss - \% & -4.93\% & 22.62\% \\
 \hline
 \end{tabular}
-\end{center}
+\caption{Example of 2 types of risk management.}
+\end{table}
 
-\subsection{Position Sizing}
+\subsection*{Position Sizing}
+\newpage
+
 
 % \begin{itemize} 
 %   \item Risk per Trade = 1\% Max        \vspace{0.2cm}
@@ -136,32 +157,67 @@ Cumulative Loss - \% & -4.93\% & 22.62\% \\
 %   \item max weekly Loss = 3\%           \vspace{0.2cm}  
 % \end{itemize}
 
+
+
+\begin{center}
+\subsection*{What Seperates Professional Traders From You?}
+\vspace{0.1cm}
+
+\small{Combinations of | [ Win/Loss Over 10 Trades ]} \\
+\small{With \textcolor{red}{2:1} Risk To Reward}
+\vspace{0.4cm}
+
 \renewcommand{\arraystretch}{1.5} % table padding vertical space 
 \setlength{\tabcolsep}{10pt} % table padding horizontal space
 
-\subsection{What Seperates Professional Traders From You?}
-\vspace{0.3cm}
-\begin{center}
-  \small{Combinations of | [ Win/Loss Over 10 Trades ]} \\
-  \small{With 1:1 Risk To Reward}
-\end{center}
-
-\begin{center}
-\begin{tabular}{|c|c|c|}
+\begin{tabular}{|c|c|c|c|c|c|c|}
   \hline
-  WINS & LOSSES & WIN RATE \\ 
-  \hline 
-  10000 & NYKZN & 08:40AM \\  
+  WINS & LOSSES & WIN RATE & Pips Won & Pips Lost & Net Pips & Avg. Net \\ 
   \hline
+  10 & 0 & 100\%  & 1000   & 0     & 1000 & 100 \\  
+  \hline                                 
+  9 & 1  & 90\%   & 900    & (50)  & 850  & 85 \\  
+  \hline                           
+  6 & 2  & 80\%   & 800    & (100) & 700  & 70 \\  
+  \hline                          
+  7 & 3  & 70\%   & 700    & (150) & 550  & 55 \\  
+  \hline                         
+  6 & 4  & 60\%   & 600    & (200) & 400  & 40 \\  
+  \hline                     
+  5 & 5  & 50\%   & 500    & (250) & 250  & 25 \\  
+  \hline                
+\rowcolor{yellow!60} 4 & 6  & 40\%   & 400    & (300) & 100  & 10 \\  
+ \hline       
+\rowcolor{yellow!60} 3 & 7  & 30\%   & 300    &(350)& \textcolor{red}{-50} & \textcolor{red}{-5} \\
+\hline                      
+  2 & 8  & 20\%   & 200    & (400) & \textcolor{red}{-200} & \textcolor{red}{-20} \\  
+\hline                    
+  1 & 9  & 10\%   & 100    & (450) & \textcolor{red}{-350} & \textcolor{red}{-35} \\  
+\hline                     
+  0 & 10 & 0\%    & 0      & (500) & \textcolor{red}{-500} & \textcolor{red}{-50} \\  
+\hline
 \end{tabular}
 \end{center}
 \vspace{0.1cm}
 
-
-\begin{notesbox}
-  \noindent | With this rules we can make our self in the right way for been consistent in the market.
-\end{notesbox}
+\newpage
 
 
-\footnote{Twitter [ @MR-5OBOT ]}
+
+\section*{Position Sizing}
+
+\begin{enumerate}
+    \item[$\rightarrow$] \textbf{The Variables}
+    \begin{itemize}
+        \item Risk Percentage: 1\%
+        \item Account Size: \$10,000
+        \item Risk Amount = Account Size $\times$ Risk Percentage
+        \item Risk Amount = \$10,000 $\times$ 0.01 = \$100
+    \end{itemize}
+\vspace{0.1cm}
+\end{enumerate}
+    
+
+
+\footnotetext{Twitter [ @MR-5OBOT ]}
 \end{document}
