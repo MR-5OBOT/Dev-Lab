@@ -1,28 +1,26 @@
-\documentclass[10pt]{article}
-\usepackage[utf8]{inputenc}
-\usepackage{graphicx}
-\graphicspath{{~/Pictures/latex/}} % setting the graphics path
-\usepackage{fancyhdr}
-\usepackage{caption} % for captions
-\usepackage[margin=2.2cm]{geometry}
-\geometry{top=0.5in}
-\usepackage{array}
-\usepackage{longtable}
-\usepackage{amssymb}
-\usepackage{enumitem} % For customizing itemize lists
-\usepackage{tabularx}
-\usepackage{dashrule}
-\usepackage[most]{tcolorbox}
-\usepackage{hyperref}
-\usepackage{amssymb}
-\usepackage{xcolor}
-\usepackage{colortbl} % for coloring columns
-\usepackage{adjustbox}
-\usepackage{multirow}
+\documentclass[10pt]{article}           % Document class with font size 10pt
+\usepackage[utf8]{inputenc}             % Input encoding for special characters
+\usepackage{graphicx}                   % For including images
+\graphicspath{{~/Pictures/latex/}}      % Setting the path for images
+\usepackage{fancyhdr}                   % For customizing headers and footers
+\usepackage{caption}                    % For customizing captions
+\usepackage[margin=2.2cm]{geometry}     % Setting page margins
+\geometry{top=0.5in}                    % Setting top margin
+\usepackage{array}                      % For customizing arrays and tables
+\usepackage{longtable}                  % For tables that span multiple pages
+\usepackage{amssymb}                    % For mathematical symbols
+\usepackage{enumitem}                   % For customizing itemize and enumerate lists
+\usepackage{tabularx}                   % For creating tables with adjustable width
+\usepackage{dashrule}                   % For creating dashed lines
+\usepackage[most]{tcolorbox}            % For creating colored boxes and frames
+\usepackage{hyperref}                   % For hyperlinks within the document
+\usepackage{xcolor}                     % For defining colors
+\usepackage{colortbl}                   % For coloring table columns
+\usepackage{adjustbox}                  % For adjusting the size of content in tables
+\usepackage{multirow}                   % For multi-row cells in tables
 
-
-\title{The Consistency Key: A Full Risk Management Model\\ for Forex \& Futures}
-\author{MR5OBOT }
+\title{The Consistency Key: A Full Risk Management Model - The Guard From Accounts Blowing}
+\author{MR 5OBOT}
 \date{\today}
 
 
@@ -72,49 +70,43 @@
 
 \footnotetext{Twitter [ @MR-5OBOT ]}
 
-\section*{What Does Risk Management Really Mean?}
-\vspace{0.1cm}
-\small Risk management is the process of identifying, assessing, and controlling risks associated with an trading activities. It involves the identification and analysis of risks, followed by the implementation of strategies to minimize the impact of those risks, It is essential to any business, as it helps to protect the organization from financial losses and other negative impacts.
 
-\subsection*{Risk Calculation}
-\vspace{0.1cm}
-\small When trading, risk is calculated by taking into account the amount of money that can be lost in a single trade, the number of trades that can be made, and the probability of success for each trade.
-\small This means that if you have \$10,000 in your account, you should not risk more than \$100 per trade. This is a good rule of thumb that will help you to protect your capital and limit your risk.
-\vspace{0.1cm}
-
-\subsubsection*{$\rightarrow$ Variables :}
-\vspace{0.1cm}
-\begin{enumerate}
-  \small{  \item \textbf{Account balance}} : The amount of money in your account.
-\vspace{0.1cm}
-  \small{  \item  \textbf{Percentage Risk}} : The percentage of your account that you are willing to lose. \\\\
-\vspace{0.1cm}
-    \small { \textbf{$\rightarrow$  Risk in Amount} \$ : The amount of money by \$ that you are willing to lose.}
-\vspace{0.1cm}
-  \small{  \item  \textbf{Stop Loss Size}: The amount of pips'points your stop loss is set to.}
-\vspace{0.1cm}
-  \small{  \item  \textbf{Pip $\wedge$ Point Value} : The amount of money that is equivalent to one pip or one point of currency.}
-\end{enumerate}
-\vspace{0.2cm}
-
-\begin{violetbox}
-\small Here's an example of bad risk Management with  a 8 losses in a row - If you think this not going to happen to you... you're going to be very disappointed friend.
-\end{violetbox}
-
-
-\begin{figure}[h]
+\begin{figure}[ht]
 \begin{center}
-   \includegraphics[scale=0.4]{10.png}
-  \captionof{figure}{Example of why risk management is important}
+   \includegraphics[scale=0.33]{10.png}
+  % \captionof{figure}{\small Example of why risk management is important}
 \end{center}
 \end{figure}
+
+
+\section{$\rightarrow$ Basic Knowledge}
+
+\subsection{\small What Does Risk Management Really Mean?}
+\small Risk management is the process of identifying, assessing, and controlling risks associated with an trading activities.\\ It involves the identification and analysis of risks, followed by the implementation of strategies to minimize the impact of those risks, It is essential to any business, as it helps to protect the organization from financial losses and other negative impacts.
+
+\subsection{\small Position Sizing}
+\small When trading, risk is calculated by taking into account the amount of money that can be lost in a single trade, the number of trades that can be made, and the probability of success for each trade.
+\small This means that if you have \$10,000 in your account, you should not risk more than \$100 per trade. This is a good rule of thumb that will help you to protect your capital and limit your risk.
+
+\subsubsection{Variables :}
+\begin{itemize}
+  \small{  \item \textbf{Account balance}} : The amount of money in your account.
+  \small{  \item  \textbf{Risk Per Trade}} : The percentage or The amount of money that you are willing to lose for each trade. 
+  \small{  \item  \textbf{Stop Loss Size}: The amount of pips'points your stop loss is set to.}
+  \small{  \item  \textbf{Pip $\wedge$ Point Value} : The amount of money that is equivalent to one pip or one point of currency.}
+\end{itemize}
+
+\subsubsection{$\rightarrow$ The formula} % Using \uline from the ulem package for underlinin
+\begin{equation*}
+\text{Position Size} = \frac{\text{Risk Amount}}{\text{Stop Loss Size} \times 100}
+\end{equation*}
+
 \newpage
 
-\subsubsection*{Why Sound Money Management is Important?}
 
-\begin{notebox}
-  \small{In the presented scenario, where two traders started with \$10,000 each, the difference in risk management strategies becomes evident. While Trader A, who adhered to a 1\% risk per trade, experienced a cumulative loss of only \$493, equivalent to a modest 4.93\% decrease in equity after five losing trades, Trader B, who risked 5\% per trade, faced a substantial cumulative loss of \$2,262, representing a significant 22.62\% reduction in equity. This stark contrast underscores the critical importance of prudent risk management practices, such as limiting risk to less than 1\% per trade, to preserve capital and navigate volatile market conditions effectively...}
-\end{notebox}
+\subsection{\small Why Sound Money Management is Important?}
+
+\indent \small In the presented scenario \textbf{Table \ref{tab:risk-management}}, where two traders started with \$10,000 each, the difference in risk management strategies becomes evident. While Trader A, who adhered to a 1\% risk per trade, experienced a cumulative loss of only \$493, equivalent to a modest 4.93\% decrease in equity after five losing trades, Trader B, who risked 5\% per trade, faced a substantial cumulative loss of \$2,262, representing a significant 22.62\% reduction in equity. This stark contrast underscores the critical importance of prudent risk management practices, such as limiting risk to less than 1\% per trade, to preserve capital and navigate volatile market conditions effectively.
 
 \renewcommand{\arraystretch}{1.5} % table padding vertical space 
 \setlength{\tabcolsep}{10pt} % table padding horizontal space
@@ -127,42 +119,30 @@
 \hline
 \textbf{Equity - Start} & \$10,000 & \$10,000 \\
 \hline
-Lossing Trade \#1 & \$9,900.00 & \$9,500 \\
+Losing Trade \#1 & \$9,900.00 & \$9,500 \\
 \hline                     
-Lossing Trade \#2 & \$9,801.00 & \$9,025 \\
+Losing Trade \#2 & \$9,801.00 & \$9,025 \\
 \hline                     
-Lossing Trade \#3 & \$9,702.00 & \$8,574 \\
+Losing Trade \#3 & \$9,702.00 & \$8,574 \\
 \hline                     
-Lossing Trade \#4 & \$9,604.00 & \$8,145 \\
+Losing Trade \#4 & \$9,604.00 & \$8,145 \\
 \hline                     
-Lossing Trade \#5 & \$9,507.00 & \$7,738 \\
+Losing Trade \#5 & \$9,507.00 & \$7,738 \\
 \hline
   Cumulative Loss - \$ & \textcolor{red}{( \$493 )} & \textcolor{red}{( \$2,262 )} \\
 \hline
 Cumulative Loss - \% & -4.93\% & 22.62\% \\
 \hline
 \end{tabular}
-\caption{Example of 2 types of risk management.}
+  \caption{\small Example of 2 types of risk management.}
+  \label{tab:risk-management}
 \end{table}
 
-\subsection*{Position Sizing}
-\newpage
 
-
-% \begin{itemize} 
-%   \item Risk per Trade = 1\% Max        \vspace{0.2cm}
-%   \item Max Daily Trades = 2 Trades     \vspace{0.2cm}
-%   \item Max daily loss = 1\%            \vspace{0.2cm}
-%   \item Max weekly Trades = 4 Trades    \vspace{0.2cm}
-%   \item max weekly Loss = 3\%           \vspace{0.2cm}  
-% \end{itemize}
-
-
-
-\begin{center}
-\subsection*{What Seperates Professional Traders From You?}
+\subsection{\small What Seperates Professional Traders From You?}
 \vspace{0.1cm}
 
+\begin{center}
 \small{Combinations of | [ Win/Loss Over 10 Trades ]} \\
 \small{With \textcolor{red}{2:1} Risk To Reward}
 \vspace{0.4cm}
@@ -200,24 +180,16 @@ Cumulative Loss - \% & -4.93\% & 22.62\% \\
 \end{center}
 \vspace{0.1cm}
 
-\newpage
 
-
-
-\section*{Position Sizing}
-
-\begin{enumerate}
-    \item[$\rightarrow$] \textbf{The Variables}
-    \begin{itemize}
-        \item Risk Percentage: 1\%
-        \item Account Size: \$10,000
-        \item Risk Amount = Account Size $\times$ Risk Percentage
-        \item Risk Amount = \$10,000 $\times$ 0.01 = \$100
-    \end{itemize}
-\vspace{0.1cm}
-\end{enumerate}
     
-
+% \begin{itemize} 
+%   \item Risk per Trade = 1\% Max        \vspace{0.2cm}
+%   \item Max Daily Trades = 2 Trades     \vspace{0.2cm}
+%   \item Max daily loss = 1\%            \vspace{0.2cm}
+%   \item Max weekly Trades = 4 Trades    \vspace{0.2cm}
+%   \item max weekly Loss = 3\%           \vspace{0.2cm}  
+% \end{itemize}
 
 \footnotetext{Twitter [ @MR-5OBOT ]}
+
 \end{document}
