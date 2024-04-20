@@ -1,0 +1,116 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+\usepackage{graphicx}
+\usepackage{fancyhdr}
+\usepackage[margin=2.2cm]{geometry}
+\usepackage{array, multirow}
+\usepackage{longtable}
+\usepackage{amssymb}
+\usepackage{enumitem} % For customizing itemize lists
+\usepackage{tabularx}
+\usepackage{tikz}
+\usepackage{dashrule}
+\usepackage[most]{tcolorbox}
+\usepackage{booktabs}
+\usepackage{mdframed}
+\usepackage{adjustbox}
+\usepackage{pgf-pie} % pie charts
+\usepackage{caption}
+\usepackage[bottom]{footmisc}
+
+\title{The Complete Trading System: Risk Management \& Technical Edge (Daily Range Expansion Model)}
+\author{\textbf{MR5OBOT} \\ \small{Mentor \& Concept Credits: Michael J. Huddeston}}
+\date{\today}
+
+\begin{document}
+\maketitle
+
+\mdfdefinestyle{MyQuoteFrame}{
+  linecolor=purple,
+  rightline=false,
+  topline=false,
+  bottomline=false,
+  outerlinewidth=1pt,
+  innerleftmargin=3em,
+  backgroundcolor=gray!10
+}
+
+\newtcolorbox{notebox}{
+    colback=gray!7,
+    colframe=gray!0,
+    arc=0mm,
+    boxrule=0mm,
+    left=5mm,
+    right=5mm,
+    top=1mm,
+    bottom=1mm,
+}
+
+\renewcommand{\thefootnote}{}
+\footnote{Twitter [ @MR-5OBOT ]}
+
+\begin{figure}[h]
+  \begin{minipage}{.5\textwidth}
+    \begin{tikzpicture}[scale=1]
+      \pie[polar,text=pin, color={gray!100, gray!50, gray!30}]{60/Stage, 30/Setup, 10/Pattern}
+    \end{tikzpicture}
+  \end{minipage}
+  \begin{minipage}{.45\textwidth}
+    \centering
+    \section{Model Clarification}
+    The following model system is designed to be applied and analyzed in the specific order of : \\
+    \vspace{0.5cm}
+    Higher Timeframe = Stage \\
+    \vspace{0.2cm}
+    Mid-Timeframe = Setup \\
+    \vspace{0.2cm}
+    Lower Timeframe = Pattern \\
+    \vspace{0.2cm}
+    \subsection{Model Objective}
+    Intraday focus: capturing The opposite SSL/BSL in daily expansion range.
+  \end{minipage}
+\end{figure}
+\vspace{1cm}
+
+
+
+
+\begin{table}[h!]
+\centering
+\renewcommand{\arraystretch}{2}
+\setlength{\tabcolsep}{30pt}
+\begin{tabular}{|c|c|c|}
+  \hline
+  \multirow{2}{*}{\textbf{STAGE}} & \multirow{2}{*}{\textbf{SETUP}} & \multirow{2}{*}{\textbf{PATTERN}} \\
+   & & \\
+  \hline
+  Daily Range Expansion & \rule{0pt}{60pt}FVG - OB - HIGHs/LOWs\rule[-60pt]{0pt}{0pt} & CISD - IFVG Entry \- \\
+  \hline
+\end{tabular}
+% \caption{The Trade Logs}
+\end{table}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+\section{The Setup}
+\subsubsection{PD Arrays}
+
+\section{The Pattern}
+\subsubsection{Time/ Price}
+\subsubsection{Diagram}
+
+
+
+
+\end{document}

@@ -2,7 +2,7 @@
 \usepackage[utf8]{inputenc}
 \usepackage{graphicx}
 \usepackage{fancyhdr}
-\usepackage[margin=2.2cm]{geometry}
+\usepackage[margin=2cm]{geometry}
 \usepackage{array}
 \usepackage{longtable}
 \usepackage{amssymb}
@@ -14,12 +14,12 @@
 \usepackage{booktabs}
 \usepackage{mdframed}
 \usepackage{adjustbox}
+\usepackage[bottom]{footmisc}
 
 
-
-\title{The Only Way To Improve Your Edge: Daily Journals (EURUSD)}
-\author{MR5OBOT}
-\date{April 11, 2024}
+\title{The Only Way To Improve Your Edge: Daily Journals (GBPUSD)}
+\author{\textbf{MR5OBOT}}
+\date{\today}
 
 \begin{document}
 \maketitle
@@ -37,17 +37,6 @@
   backgroundcolor=gray!10
 }
 
-% Define a new tcolorbox style for the "Notes" section
-\newtcolorbox{notesbox}{
-    colback=yellow!50, % Light yellow background color
-    colframe=yellow!10, % Slightly darker yellow border color
-    boxrule=0.5pt, % Border thickness
-    arc=2pt, % Rounded corners
-    left=5pt, % Left padding
-    right=5pt, % Right padding
-    top=3pt, % Top padding
-    bottom=3pt % Bottom padding
-}
 
 \newtcolorbox{notebox}{
     colback=gray!7, % Light grey background color
@@ -67,79 +56,111 @@
 \setlength{\tabcolsep}{10pt} % table padding horizontal space
 
 
-
 \begin{figure}[htbp!]
 \begin{minipage}{0.6\textwidth}
 \section*{Trade Breakdown}
-\vspace{0.5cm}
-$\rightarrow$ \textbf{The Context:} PO3 with Clear DOL.\\\\\\
-$\rightarrow$ \textbf{The PD Array:} 4H FVG \& 1H Purge [IRL | ERL] \\\\\\
-$\rightarrow$ \textbf{Entry TF:} 5M Sell Program
-\vspace{1cm}
+
+%-----------------------------------------------------------------------------------------------------%
+$\rightarrow$ \textbf{The Context:}  1D [IRL | ERL]. No daily PDA. \\\\\\
+$\rightarrow$ \textbf{The PD Array:} 4H -OB  \\\\\\
+$\rightarrow$ \textbf{Entry TF:} 15M BRK Entry.
+\vspace{0.8cm}
+
+%-----------------------------------------------------------------------------------------------------%
 \end{minipage}
 \begin{minipage}{0.4\textwidth}
-    \includegraphics[width=\textwidth]{~/Pictures/latex/photo_2024-04-11_mt5.jpg}
-    \caption{Trade Excution.}
-    \label{fig:image}
+  \includegraphics[width=\textwidth]{~/Pictures/latex/intro.png}
+  % \caption{Trade Excution.}
+  \label{fig:image}
 \end{minipage}
 \end{figure}
-
+%-----------------------------------------------------------------------------------------------------%
 
 \begin{table}[h!]
 \begin{center}
-\caption{The Trade Logs}
-\label{tab:my_label}
+  \label{tab:my_label}
   \vspace{0.3cm}
 \begin{tabular}{|c|c|c|c|c|c|c|}
-\toprule
+  \toprule
   \textbf{ASEET} & \textbf{KILLZONE} & \textbf{ENTRY TF}  & \textbf{RISK \%} & \textbf{R/R} & \textbf{W/L} & \textbf{P/L \%} \\
-\midrule
-  EURUSD & NYKZN & 5M & 0.5\% & 2.1 & Win & 1.3\% \\
-\bottomrule
+  \midrule
+  GBPUSD & NYKZN & 15M & 0.5\% & -1 & L & -0.6\% \\
+  \bottomrule
 \end{tabular}
+  \caption{The Trade Logs}
 \end{center}
 \end{table}
-
+%-----------------------------------------------------------------------------------------------------%
 
 \begin{center}
 \begin{mdframed}[style=MyQuoteFrame]
-\textbf{Note :} $\rightarrow$ its a nice start on my 50K Nextfunded account Phase1, and the trade was very clean too. \\ 
-The only error I have made is that I took the trade too late.
+  \textbf{Note :} $\rightarrow$ Clean Sl to be Honest if i would say there's a reason i will say its bc of the [TIME]  \\ bc The entry was in the the Open of NY session no waiting for new ORDERFLOW to form, but overall it's a valid setup. 
 \end{mdframed}
 \end{center}
+%-----------------------------------------------------------------------------------------------------%
 \vspace{0.2cm}
-
 \newpage
 
-\noindent \( \rightrightarrows \) \hspace{0.1cm}The Context : | [ Daily purge \& PO3 with Clear SSL ] 
+\centering
+\vspace{0.1cm}
 \begin{figure}[h!]
-  \begin{adjustbox}{width=1.1\textwidth,center}
-  \includegraphics{~/Pictures/latex/EURUSD_2024-04-15_1D.png}
+\caption{Daily TF Context.}
+\begin{adjustbox}{width=1.1\textwidth,center}
+  \includegraphics{~/Pictures/latex/daily.png}
 \end{adjustbox}
-\caption{Daily Timeframe}
+  % \caption{Daily Timeframe}
+  \label{fig:image}
+\end{figure}
+%-----------------------------------------------------------------------------------------------------%
+
+\begin{figure}[h!]
+\caption{4H Timeframe The PDA}
+  \begin{adjustbox}{width=1.1\textwidth,center}
+  \includegraphics{~/Pictures/latex/4h-TF.png}
+\end{adjustbox}
 \label{fig:image}
 \end{figure}
 
-
-\noindent \( \rightrightarrows \) \hspace{0.1cm}The PD Array : | [ 4H IRL | ERL \& 1H Sweep ]
-\begin{figure}[h!]
-  \begin{adjustbox}{width=1.1\textwidth,center}
-  \includegraphics{~/Pictures/latex/04-11-24-1H.png}
-\end{adjustbox}
-\caption{1H Timeframe}
-\label{fig:image}
-\end{figure}
-
+\footnote{Twitter [ @MR-5OBOT ]}
+%-----------------------------------------------------------------------------------------------------%
 \newpage
 
-\noindent \( \rightrightarrows \) \hspace{0.1cm}The Entry : | [ 5m Sell Program ]
+\vspace{0.1cm}
 \begin{figure}[h!]
-  \begin{adjustbox}{width=1.2\textwidth,center}
-  \includegraphics{~/Pictures/latex/5M-ENTRY_04-11.png}
+\caption{1H Narrative}
+  \begin{adjustbox}{width=1.1\textwidth,center}
+  \includegraphics{~/Pictures/latex/1H.png}
 \end{adjustbox}
-\caption{Caption}
+  \label{fig:image}
+\end{figure}
+%-----------------------------------------------------------------------------------------------------%
+
+\noindent \( \rightrightarrows \) \hspace{0.1cm}The Entry : |  15m BRK \\ \vspace{0.2cm} it's not A+ setup but its a valid entry .
+\begin{figure}[h!]
+  \begin{adjustbox}{width=1.1\textwidth,center}
+  \includegraphics{~/Pictures/latex/ENTRY.png}
+\end{adjustbox}
+  % \caption{Caption}
 \label{fig:image}
 \end{figure}
+\footnote{Twitter [ @MR-5OBOT ]}
+%-----------------------------------------------------------------------------------------------------%
 
+
+% \begin{center}
+% \subsection*{Extra Trades (First Loss)}
+% \vspace{0.5cm}
+% \( \rightrightarrows \) \hspace{0.1cm}\textbf{The Entry : }15m change in stat of delivery [Note: that there's no fair value gap after the CISD. ] \\
+% \vspace{0.5cm}
+
+% \begin{figure}[h!]
+%   \begin{adjustbox}{width=1.1\textwidth,center}
+%   \includegraphics{~/Pictures/latex/EURUSD_2024-04-15_L1.png}
+% \end{adjustbox}
+% \caption{First Loss}
+% \label{fig:image}
+% \end{figure}
+% \end{center}
+%
 
 \end{document}
