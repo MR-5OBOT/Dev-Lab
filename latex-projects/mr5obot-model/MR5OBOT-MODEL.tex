@@ -2,7 +2,7 @@
 \usepackage[utf8]{inputenc}
 \usepackage{graphicx}
 \usepackage{fancyhdr}
-\usepackage[margin=2.2cm]{geometry}
+\usepackage[margin=2cm]{geometry}
 \usepackage{array, multirow}
 \usepackage{longtable}
 \usepackage{amssymb}
@@ -17,23 +17,18 @@
 \usepackage{pgf-pie} % pie charts
 \usepackage{caption}
 \usepackage[bottom]{footmisc}
+\usepackage[table]{xcolor}
+\usepackage{xcolor}
+\usepackage{wrapfig}
 
-\title{The Complete Trading System: Risk Management \& Technical Edge (Daily Range Expansion Model)}
+
+
+\title{Technical Edge: Daily Range Expansion Model}
 \author{\textbf{MR5OBOT} \\ \small{Mentor \& Concept Credits: Michael J. Huddeston}}
 \date{\today}
 
 \begin{document}
 \maketitle
-
-\mdfdefinestyle{MyQuoteFrame}{
-  linecolor=purple,
-  rightline=false,
-  topline=false,
-  bottomline=false,
-  outerlinewidth=1pt,
-  innerleftmargin=3em,
-  backgroundcolor=gray!10
-}
 
 \newtcolorbox{notebox}{
     colback=gray!7,
@@ -48,6 +43,7 @@
 
 \renewcommand{\thefootnote}{}
 \footnote{Twitter [ @MR-5OBOT ]}
+\vspace{0.8cm}
 
 \begin{figure}[h]
   \begin{minipage}{.5\textwidth}
@@ -60,49 +56,87 @@
     \section{Model Clarification}
     The following model system is designed to be applied and analyzed in the specific order of : \\
     \vspace{0.5cm}
-    Higher Timeframe = Stage \\
+    HTF = Stage (Bias)\\
     \vspace{0.2cm}
-    Mid-Timeframe = Setup \\
+    MTF = Setup (PDA) \\
     \vspace{0.2cm}
-    Lower Timeframe = Pattern \\
+    LTF = Pattern (Entry Model)\\
     \vspace{0.2cm}
     \subsection{Model Objective}
-    Intraday focus: capturing The opposite SSL/BSL in daily expansion range.
+    Intraday focus: capturing the obvious SSL/BSL.
   \end{minipage}
 \end{figure}
-\vspace{1cm}
-
-
+\vspace{1.5cm}
 
 
 \begin{table}[h!]
 \centering
+\definecolor{lightgray}{gray}{0.95}
 \renewcommand{\arraystretch}{2}
 \setlength{\tabcolsep}{30pt}
+\rowcolors{2}{lightgray}{}
 \begin{tabular}{|c|c|c|}
   \hline
   \multirow{2}{*}{\textbf{STAGE}} & \multirow{2}{*}{\textbf{SETUP}} & \multirow{2}{*}{\textbf{PATTERN}} \\
    & & \\
   \hline
-  Daily Range Expansion & \rule{0pt}{60pt}FVG - OB - HIGHs/LOWs\rule[-60pt]{0pt}{0pt} & CISD - IFVG Entry \- \\
+  Daily Range Expansion & \rule{0pt}{60pt}FVG - OB - HIGHs/LOWs\rule[-60pt]{0pt}{0pt} & \-  The Entry Model  \- \\
   \hline
 \end{tabular}
 % \caption{The Trade Logs}
 \end{table}
+\newpage
+
+\section{Higher Timeframe}
+The stage for the model is based on indentifying the higherst probability direction and draw for the expansion of the daily candle
+
+\vspace{0.6cm}
+\begin{figure}[h!]
+\begin{minipage}{0.7\textwidth}
+\subsection{Identify:}
+  \vspace{0.3cm}
+  \begin{itemize}
+    \item Daily \& Weekly Order flow
+    \item Weekly Profiles [day of week]
+    \item Daily Profiles [PO3 \& session character]
+  \end{itemize}
+  \vspace{0.3cm}
+$ \rightarrow $ When {\color[HTML]{008000}Bullish,} you are anticipating Open to Low, \\ then expansion toward higher prices \\\\
+$ \rightarrow $ When {\color[HTML]{BB5153}Bearish,} you are anticipating Open to High, \\ then expansion towards lower prices
+  \vspace{0.3cm}
+\subsection{The Context for Expansions}
+
+\end{minipage}
+
+\hfill
+\begin{minipage}{0.3\textwidth}
+  \includegraphics[scale=0.8]{$HOME/Pictures/latex/OHLC.png}
+\end{minipage}
+\end{figure}
 
 
 
 
+\newpage
+\section{Diagram}
+
+\begin{figure}[h!]
+  \caption{London Reversal $\rightarrow$ LHOD}
+\begin{adjustbox}{width=1.05\textwidth,center}
+  \includegraphics{~/Pictures/latex/LO reversal.png}
+\end{adjustbox}
+  \label{fig:image}
+\end{figure}
+
+\begin{figure}[h!]
+  \caption{New York Reversal $\rightarrow$ NHOD}
+\begin{adjustbox}{width=1.05\textwidth,center}
+  \includegraphics{~/Pictures/latex/NY reversal.png}
+\end{adjustbox}
+  \label{fig:image}
+\end{figure}
 
 
-
-
-\section{The Setup}
-\subsubsection{PD Arrays}
-
-\section{The Pattern}
-\subsubsection{Time/ Price}
-\subsubsection{Diagram}
 
 
 

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024/Arch Linux) (preloaded format=pdflatex 2024.4.19)  23 APR 2024 16:40
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024/Arch Linux) (preloaded format=pdflatex 2024.4.19)  28 APR 2024 17:24
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -896,49 +896,58 @@ Package footmisc Info: Declaring symbol style lamport-robust on input line 724.
 Package footmisc Info: Declaring symbol style lamport* on input line 744.
 Package footmisc Info: Declaring symbol style lamport*-robust on input line 765
 .
-) (./MR5OBOT-MODEL.aux)
+)
+(/usr/share/texmf-dist/tex/latex/colortbl/colortbl.sty
+Package: colortbl 2024/02/20 v1.0g Color table columns (DPC)
+\everycr=\toks50
+\minrowclearance=\skip138
+\rownum=\count346
+)
+(/usr/share/texmf-dist/tex/latex/wrapfig/wrapfig.sty
+\wrapoverhang=\dimen322
+\WF@size=\dimen323
+\c@WF@wrappedlines=\count347
+\WF@box=\box95
+\WF@everypar=\toks51
+Package: wrapfig 2003/01/31  v 3.6
+) (./MR5OBOT-MODEL.aux
+
+LaTeX Warning: Label `fig:image' multiply defined.
+
+)
 \openout1 = `MR5OBOT-MODEL.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 25.
-LaTeX Font Info:    ... okay on input line 25.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 25.
-LaTeX Font Info:    ... okay on input line 25.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 25.
-LaTeX Font Info:    ... okay on input line 25.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 25.
-LaTeX Font Info:    ... okay on input line 25.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 25.
-LaTeX Font Info:    ... okay on input line 25.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 25.
-LaTeX Font Info:    ... okay on input line 25.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 25.
-LaTeX Font Info:    ... okay on input line 25.
-
-(/usr/share/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+ (/usr/share/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count346
-\scratchdimen=\dimen322
-\scratchbox=\box95
-\nofMPsegments=\count347
-\nofMParguments=\count348
-\everyMPshowfont=\toks50
-\MPscratchCnt=\count349
-\MPscratchDim=\dimen323
-\MPnumerator=\count350
-\makeMPintoPDFobject=\count351
-\everyMPtoPDFconversion=\toks51
+\scratchcounter=\count348
+\scratchdimen=\dimen324
+\scratchbox=\box96
+\nofMPsegments=\count349
+\nofMParguments=\count350
+\everyMPshowfont=\toks52
+\MPscratchCnt=\count351
+\MPscratchDim=\dimen325
+\MPnumerator=\count352
+\makeMPintoPDFobject=\count353
+\everyMPtoPDFconversion=\toks53
 ) (/usr/share/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
-
-(/usr/share/texmf-dist/tex/latex/grfext/grfext.sty
-Package: grfext 2019/12/03 v1.3 Manage graphics extensions (HO)
-)
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 85.
-Package grfext Info: Graphics extension search list:
-(grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPE
-G,.JBIG2,.JB2,.eps]
-(grfext)             \AppendGraphicsExtensions on input line 504.
 
 (/usr/share/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
@@ -952,15 +961,15 @@ e
 * layout: <same size as paper>
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
 * modes: 
-* h-part:(L,W,R)=(62.59596pt, 489.10307pt, 62.59596pt)
-* v-part:(T,H,B)=(62.59596pt, 669.77806pt, 62.59596pt)
+* h-part:(L,W,R)=(56.9055pt, 500.484pt, 56.9055pt)
+* v-part:(T,H,B)=(56.9055pt, 681.15898pt, 56.9055pt)
 * \paperwidth=614.295pt
 * \paperheight=794.96999pt
-* \textwidth=489.10307pt
-* \textheight=669.77806pt
-* \oddsidemargin=-9.67403pt
-* \evensidemargin=-9.67403pt
-* \topmargin=-46.67403pt
+* \textwidth=500.484pt
+* \textheight=681.15898pt
+* \oddsidemargin=-15.36449pt
+* \evensidemargin=-15.36449pt
+* \topmargin=-52.36449pt
 * \headheight=12.0pt
 * \headsep=25.0pt
 * \topskip=10.0pt
@@ -978,50 +987,86 @@ e
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-\c@lstlisting=\count352
+\c@lstlisting=\count354
 Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: wrapfig package is loaded.
 Package caption Info: End \AtBeginDocument code.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 26.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 31.
 
 (/usr/share/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 26.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 31.
 
 
 (/usr/share/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-)
-Overfull \hbox (6.37247pt too wide) in paragraph at lines 82--91
- [][] 
+) [1
+
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
+Underfull \hbox (badness 10000) in paragraph at lines 104--107
+
  []
 
-[1
+<$HOME/Pictures/latex/OHLC.png, id=52, 204.765pt x 367.3725pt>
+File: $HOME/Pictures/latex/OHLC.png Graphic file (type png)
+<use $HOME/Pictures/latex/OHLC.png>
+Package pdftex.def Info: $HOME/Pictures/latex/OHLC.png  used on input line 113.
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] [2] (./MR5OBOT-MODEL.aux)
+(pdftex.def)             Requested size: 163.8122pt x 293.89838pt.
+
+Overfull \hbox (13.66548pt too wide) in paragraph at lines 113--114
+[][] 
+ []
+
+[2 </home/mr5obot/Pictures/latex/OHLC.png>]
+<~/Pictures/latex/LO reversal.png, id=60, 1391.1975pt x 750.805pt>
+File: ~/Pictures/latex/LO reversal.png Graphic file (type png)
+<use ~/Pictures/latex/LO reversal.png>
+Package pdftex.def Info: ~/Pictures/latex/LO reversal.png  used on input line 1
+26.
+(pdftex.def)             Requested size: 1391.1941pt x 750.80316pt.
+<~/Pictures/latex/NY reversal.png, id=61, 1391.1975pt x 750.805pt>
+File: ~/Pictures/latex/NY reversal.png Graphic file (type png)
+<use ~/Pictures/latex/NY reversal.png>
+Package pdftex.def Info: ~/Pictures/latex/NY reversal.png  used on input line 1
+34.
+(pdftex.def)             Requested size: 1391.1941pt x 750.80316pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[3 </home/mr5obot/Pictures/latex/LO reversal.png>] [4 </home/mr5obot/Pictures/l
+atex/NY reversal.png>] (./MR5OBOT-MODEL.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-02-20>
  ***********
+
+
+LaTeX Warning: There were multiply-defined labels.
+
  ) 
 Here is how much of TeX's memory you used:
- 26070 strings out of 476076
- 545366 string characters out of 5793775
+ 26219 strings out of 476076
+ 547808 string characters out of 5793775
  1936187 words of memory out of 5000000
- 47691 multiletter control sequences out of 15000+600000
- 566231 words of font info for 68 fonts, out of 8000000 for 9000
+ 47835 multiletter control sequences out of 15000+600000
+ 566566 words of font info for 69 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 86i,10n,117p,477b,976s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/
-texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texmf-dist/fon
-ts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf-dist/fonts/type1/public
-/amsfonts/cm/cmr12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cm
-r17.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/sh
-are/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb>
-Output written on MR5OBOT-MODEL.pdf (2 pages, 100869 bytes).
+ 86i,11n,117p,477b,978s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ </home/mr5obot/.texlive/texmf-var/fonts/pk/ljfour/jknappen/ec/tcrm1000.600pk
+></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/t
+exmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texmf-dist/font
+s/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf-dist/fonts/type1/public/
+amsfonts/cm/cmr12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr
+17.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/sha
+re/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/share/texmf-dist/fo
+nts/type1/public/amsfonts/cm/cmsy10.pfb>
+Output written on MR5OBOT-MODEL.pdf (4 pages, 220300 bytes).
 PDF statistics:
- 85 PDF objects out of 1000 (max. 8388607)
- 42 compressed objects within 1 object stream
+ 108 PDF objects out of 1000 (max. 8388607)
+ 54 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 157 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 172 words of extra memory for PDF output out of 10000 (max. 10000000)
 
