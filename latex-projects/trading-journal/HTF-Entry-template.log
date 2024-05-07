@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024/Arch Linux) (preloaded format=pdflatex 2024.4.19)  4 MAY 2024 09:10
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024/Arch Linux) (preloaded format=pdflatex 2024.4.19)  7 MAY 2024 11:00
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -866,6 +866,9 @@ LaTeX Warning: Label `fig:image' multiply defined.
 
 LaTeX Warning: Label `fig:image' multiply defined.
 
+
+LaTeX Warning: Label `fig:image' multiply defined.
+
 )
 \openout1 = `HTF-Entry-template.aux'.
 
@@ -978,44 +981,53 @@ Underfull \hbox (badness 10000) in paragraph at lines 53--57
 
  []
 
-<~/Pictures/latex/intro.png, id=41, 138.5175pt x 309.155pt>
+<~/Pictures/latex/intro.png, id=41, 288.07625pt x 572.1375pt>
 File: ~/Pictures/latex/intro.png Graphic file (type png)
 <use ~/Pictures/latex/intro.png>
 Package pdftex.def Info: ~/Pictures/latex/intro.png  used on input line 60.
-(pdftex.def)             Requested size: 140.13847pt x 312.77242pt.
+(pdftex.def)             Requested size: 140.13847pt x 278.33316pt.
 
 Overfull \hbox (27.24792pt too wide) in paragraph at lines 49--64
 []$[]$  $[]$ 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 70--72
+Underfull \hbox (badness 10000) in paragraph at lines 70--73
 
  []
 
 [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} </home/mr5obot/Pictures/lat
-ex/intro.png>]
-<~/Pictures/latex/daily.png, id=56, 1350.04375pt x 740.7675pt>
+ex/intro.png (PNG copy)>]
+<~/Pictures/latex/daily.png, id=53, 1347.0325pt x 740.7675pt>
 File: ~/Pictures/latex/daily.png Graphic file (type png)
 <use ~/Pictures/latex/daily.png>
-Package pdftex.def Info: ~/Pictures/latex/daily.png  used on input line 82.
-(pdftex.def)             Requested size: 1350.04047pt x 740.76569pt.
-<~/Pictures/latex/1H.png, id=57, 1347.0325pt x 740.7675pt>
+Package pdftex.def Info: ~/Pictures/latex/daily.png  used on input line 83.
+(pdftex.def)             Requested size: 1347.02924pt x 740.76569pt.
+<~/Pictures/latex/4h-TF.png, id=55, 1347.0325pt x 740.7675pt>
+File: ~/Pictures/latex/4h-TF.png Graphic file (type png)
+<use ~/Pictures/latex/4h-TF.png>
+Package pdftex.def Info: ~/Pictures/latex/4h-TF.png  used on input line 93.
+(pdftex.def)             Requested size: 1347.02924pt x 740.76569pt.
+<~/Pictures/latex/1H.png, id=56, 1347.0325pt x 740.7675pt>
 File: ~/Pictures/latex/1H.png Graphic file (type png)
 <use ~/Pictures/latex/1H.png>
-Package pdftex.def Info: ~/Pictures/latex/1H.png  used on input line 92.
+Package pdftex.def Info: ~/Pictures/latex/1H.png  used on input line 103.
 (pdftex.def)             Requested size: 1347.02924pt x 740.76569pt.
- [2 </home/mr5obot/Pictures/latex/daily.png> </home/mr5obot/Pictures/latex/1H.p
-ng>]
-<~/Pictures/latex/ENTRY.png, id=63, 1347.0325pt x 740.7675pt>
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[2 </home/mr5obot/Pictures/latex/daily.png> </home/mr5obot/Pictures/latex/4h-TF
+.png>]
+<~/Pictures/latex/ENTRY.png, id=62, 1347.0325pt x 740.7675pt>
 File: ~/Pictures/latex/ENTRY.png Graphic file (type png)
 <use ~/Pictures/latex/ENTRY.png>
-Package pdftex.def Info: ~/Pictures/latex/ENTRY.png  used on input line 104.
+Package pdftex.def Info: ~/Pictures/latex/ENTRY.png  used on input line 113.
 (pdftex.def)             Requested size: 1347.02924pt x 740.76569pt.
- [3 </home/mr5obot/Pictures/latex/ENTRY.png>]
-(./HTF-Entry-template.aux)
+ [3 </home/mr5obot/Pictures/latex/1H.png> </home/mr5obot/Pictures/latex/ENTRY.p
+ng>] (./HTF-Entry-template.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-02-20>
@@ -1026,11 +1038,11 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 24160 strings out of 476076
- 507787 string characters out of 5793775
- 1931187 words of memory out of 5000000
- 45805 multiletter control sequences out of 15000+600000
- 566278 words of font info for 68 fonts, out of 8000000 for 9000
+ 24165 strings out of 476076
+ 507996 string characters out of 5793775
+ 1932187 words of memory out of 5000000
+ 45811 multiletter control sequences out of 15000+600000
+ 565932 words of font info for 67 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  86i,8n,98p,482b,372s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/
@@ -1039,12 +1051,11 @@ ts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf-dist/fonts/type1/public
 /amsfonts/cm/cmr12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cm
 r17.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/sh
 are/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf-dist
-/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/texmf-dist/fonts/type1/p
-ublic/amsfonts/symbols/msam10.pfb>
-Output written on HTF-Entry-template.pdf (3 pages, 248473 bytes).
+/fonts/type1/public/amsfonts/symbols/msam10.pfb>
+Output written on HTF-Entry-template.pdf (3 pages, 285725 bytes).
 PDF statistics:
- 107 PDF objects out of 1000 (max. 8388607)
- 51 compressed objects within 1 object stream
+ 103 PDF objects out of 1000 (max. 8388607)
+ 48 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 177 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 182 words of extra memory for PDF output out of 10000 (max. 10000000)
 
