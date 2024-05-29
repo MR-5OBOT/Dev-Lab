@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024/Arch Linux) (preloaded format=pdflatex 2024.4.19)  7 MAY 2024 11:00
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024/Arch Linux) (preloaded format=pdflatex 2024.5.12)  14 MAY 2024 16:03
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -866,26 +866,23 @@ LaTeX Warning: Label `fig:image' multiply defined.
 
 LaTeX Warning: Label `fig:image' multiply defined.
 
-
-LaTeX Warning: Label `fig:image' multiply defined.
-
 )
 \openout1 = `HTF-Entry-template.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 44.
+LaTeX Font Info:    ... okay on input line 44.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 44.
+LaTeX Font Info:    ... okay on input line 44.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 44.
+LaTeX Font Info:    ... okay on input line 44.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 44.
+LaTeX Font Info:    ... okay on input line 44.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 44.
+LaTeX Font Info:    ... okay on input line 44.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 44.
+LaTeX Font Info:    ... okay on input line 44.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 44.
+LaTeX Font Info:    ... okay on input line 44.
  (/usr/share/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count340
@@ -924,15 +921,15 @@ e
 * layout: <same size as paper>
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
 * modes: 
-* h-part:(L,W,R)=(56.9055pt, 500.484pt, 56.9055pt)
-* v-part:(T,H,B)=(56.9055pt, 681.15898pt, 56.9055pt)
+* h-part:(L,W,R)=(42.67912pt, 528.93675pt, 42.67912pt)
+* v-part:(T,H,B)=(42.67912pt, 709.61174pt, 42.67912pt)
 * \paperwidth=614.295pt
 * \paperheight=794.96999pt
-* \textwidth=500.484pt
-* \textheight=681.15898pt
-* \oddsidemargin=-15.36449pt
-* \evensidemargin=-15.36449pt
-* \topmargin=-52.36449pt
+* \textwidth=528.93675pt
+* \textheight=709.61174pt
+* \oddsidemargin=-29.59087pt
+* \evensidemargin=-29.59087pt
+* \topmargin=-66.59087pt
 * \headheight=12.0pt
 * \headsep=25.0pt
 * \topskip=10.0pt
@@ -951,83 +948,54 @@ e
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 \c@lstlisting=\count346
-LaTeX Font Info:    Trying to load font information for U+msa on input line 25.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 45.
 
 (/usr/share/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 25.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 45.
 
 
 (/usr/share/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-Underfull \hbox (badness 10000) in paragraph at lines 53--57
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 53--57
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 53--57
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 53--57
-
- []
-
-<~/Pictures/latex/intro.png, id=41, 288.07625pt x 572.1375pt>
+<~/Pictures/latex/intro.png, id=41, 192.72pt x 451.6875pt>
 File: ~/Pictures/latex/intro.png Graphic file (type png)
 <use ~/Pictures/latex/intro.png>
-Package pdftex.def Info: ~/Pictures/latex/intro.png  used on input line 60.
-(pdftex.def)             Requested size: 140.13847pt x 278.33316pt.
-
-Overfull \hbox (27.24792pt too wide) in paragraph at lines 49--64
-[]$[]$  $[]$ 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 70--73
-
- []
-
-[1
+Package pdftex.def Info: ~/Pictures/latex/intro.png  used on input line 75.
+(pdftex.def)             Requested size: 132.23418pt x 309.92097pt.
+ [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} </home/mr5obot/Pictures/lat
 ex/intro.png (PNG copy)>]
-<~/Pictures/latex/daily.png, id=53, 1347.0325pt x 740.7675pt>
-File: ~/Pictures/latex/daily.png Graphic file (type png)
-<use ~/Pictures/latex/daily.png>
-Package pdftex.def Info: ~/Pictures/latex/daily.png  used on input line 83.
-(pdftex.def)             Requested size: 1347.02924pt x 740.76569pt.
-<~/Pictures/latex/4h-TF.png, id=55, 1347.0325pt x 740.7675pt>
-File: ~/Pictures/latex/4h-TF.png Graphic file (type png)
-<use ~/Pictures/latex/4h-TF.png>
-Package pdftex.def Info: ~/Pictures/latex/4h-TF.png  used on input line 93.
-(pdftex.def)             Requested size: 1347.02924pt x 740.76569pt.
-<~/Pictures/latex/1H.png, id=56, 1347.0325pt x 740.7675pt>
-File: ~/Pictures/latex/1H.png Graphic file (type png)
-<use ~/Pictures/latex/1H.png>
-Package pdftex.def Info: ~/Pictures/latex/1H.png  used on input line 103.
-(pdftex.def)             Requested size: 1347.02924pt x 740.76569pt.
+<~/Pictures/latex/Daily-TF.png, id=54, 1391.1975pt x 699.61375pt>
+File: ~/Pictures/latex/Daily-TF.png Graphic file (type png)
+<use ~/Pictures/latex/Daily-TF.png>
+Package pdftex.def Info: ~/Pictures/latex/Daily-TF.png  used on input line 104.
+
+(pdftex.def)             Requested size: 1391.1941pt x 699.61205pt.
+<~/Pictures/latex/1H-TF.png, id=56, 1391.1975pt x 699.61375pt>
+File: ~/Pictures/latex/1H-TF.png Graphic file (type png)
+<use ~/Pictures/latex/1H-TF.png>
+Package pdftex.def Info: ~/Pictures/latex/1H-TF.png  used on input line 113.
+(pdftex.def)             Requested size: 1391.1941pt x 699.61205pt.
 
 
-LaTeX Warning: `!h' float specifier changed to `!ht'.
+LaTeX Warning: `h' float specifier changed to `ht'.
 
-[2 </home/mr5obot/Pictures/latex/daily.png> </home/mr5obot/Pictures/latex/4h-TF
-.png>]
-<~/Pictures/latex/ENTRY.png, id=62, 1347.0325pt x 740.7675pt>
-File: ~/Pictures/latex/ENTRY.png Graphic file (type png)
-<use ~/Pictures/latex/ENTRY.png>
-Package pdftex.def Info: ~/Pictures/latex/ENTRY.png  used on input line 113.
-(pdftex.def)             Requested size: 1347.02924pt x 740.76569pt.
- [3 </home/mr5obot/Pictures/latex/1H.png> </home/mr5obot/Pictures/latex/ENTRY.p
-ng>] (./HTF-Entry-template.aux)
+[2 </home/mr5obot/Pictures/latex/Daily-TF.png>]
+<~/Pictures/latex/The-Entry.png, id=61, 1391.1975pt x 699.61375pt>
+File: ~/Pictures/latex/The-Entry.png Graphic file (type png)
+<use ~/Pictures/latex/The-Entry.png>
+Package pdftex.def Info: ~/Pictures/latex/The-Entry.png  used on input line 132
+.
+(pdftex.def)             Requested size: 1391.1941pt x 699.61205pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[3 </home/mr5obot/Pictures/latex/1H-TF.png>] [4 </home/mr5obot/Pictures/latex/T
+he-Entry.png>] (./HTF-Entry-template.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-02-20>
@@ -1038,24 +1006,24 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 24165 strings out of 476076
- 507996 string characters out of 5793775
- 1932187 words of memory out of 5000000
- 45811 multiletter control sequences out of 15000+600000
- 565932 words of font info for 67 fonts, out of 8000000 for 9000
+ 24167 strings out of 476076
+ 508049 string characters out of 5793775
+ 1935187 words of memory out of 5000000
+ 45812 multiletter control sequences out of 15000+600000
+ 566267 words of font info for 68 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 86i,8n,98p,482b,372s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/
-texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texmf-dist/fon
-ts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf-dist/fonts/type1/public
-/amsfonts/cm/cmr12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cm
-r17.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/sh
-are/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf-dist
-/fonts/type1/public/amsfonts/symbols/msam10.pfb>
-Output written on HTF-Entry-template.pdf (3 pages, 285725 bytes).
+ 86i,11n,98p,482b,370s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ </home/mr5obot/.texlive/texmf-var/fonts/pk/ljfour/jknappen/ec/tcrm1000.600pk
+></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/t
+exmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texmf-dist/font
+s/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf-dist/fonts/type1/public/
+amsfonts/cm/cmr12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr
+17.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/s
+hare/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb>
+Output written on HTF-Entry-template.pdf (4 pages, 214979 bytes).
 PDF statistics:
- 103 PDF objects out of 1000 (max. 8388607)
- 48 compressed objects within 1 object stream
+ 104 PDF objects out of 1000 (max. 8388607)
+ 51 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 182 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 177 words of extra memory for PDF output out of 10000 (max. 10000000)
 

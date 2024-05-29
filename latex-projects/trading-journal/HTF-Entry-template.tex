@@ -2,11 +2,11 @@
 \usepackage[utf8]{inputenc}
 \usepackage{graphicx}
 \usepackage{fancyhdr}
-\usepackage[margin=2cm]{geometry}
+\usepackage[margin=1.5cm]{geometry}
 \usepackage{array}
 \usepackage{longtable}
 \usepackage{amssymb}
-\usepackage{enumitem} % For customizing itemize lists
+\usepackage{enumitem}
 \usepackage{tabularx}
 \usepackage{tikz}
 \usepackage{dashrule}
@@ -15,17 +15,21 @@
 \usepackage{mdframed}
 \usepackage{adjustbox}
 \usepackage[bottom]{footmisc}
-
+\usepackage{tabularx}
+\usepackage{booktabs}
 
 \title{The Only Way To Improve Your Edge: Daily Journals (EURUSD)}
 \author{\textbf{MR5OBOT}}
 \date{\today}
 
-\begin{document}
-\maketitle
-% \pagestyle{fancy}
-% \tableofcontents
-% \noindent\hdashrule[0.2ex]{\linewidth}{0.1pt}{1mm}
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[L]{\textbf{Trading Journal }}
+\fancyhead[R]{\thepage}
+\fancyfoot[L]{\textbf{MR5OBOT}}
+\fancyfoot[R]{\textbf{\today}}
+\renewcommand{\headrulewidth}{0.5pt}
+\renewcommand{\footrulewidth}{0.5pt}
 
 \mdfdefinestyle{MyQuoteFrame}{
   linecolor=purple,
@@ -37,94 +41,107 @@
   backgroundcolor=gray!10
 }
 
-\renewcommand{\thefootnote}{}
-\footnote{Twitter [ @MR-5OBOT ]}
+\begin{document}
+\maketitle
 
-\renewcommand{\arraystretch}{1.5} % table padding vertical space 
-\setlength{\tabcolsep}{10pt} % table padding horizontal space
+% \renewcommand{\thefootnote}{}
+% \footnote{Twitter [ @MR-5OBOT ]}
+
+\renewcommand{\arraystretch}{1.5}
+\setlength{\tabcolsep}{10pt}
 
 
-
-\begin{figure}[h!]
-\begin{minipage}{0.7\textwidth}
+\begin{minipage}{0.5\textwidth}
 \section*{Trade Breakdown}
-\vspace{0.3cm}
-
-  $\rightarrow$ \textbf{The Context:}  1W \& 1D FVG In Premium  \\\\\\
-$\rightarrow$ \textbf{The PD Array:} 4H BISI (as a Target) \\\\\\
-  $\rightarrow$ \textbf{Entry TF:} 15M IFVG + SMT (GU)
-\vspace{0.8cm}
+  \vspace{0.1cm}
+\begin{itemize}
+    \item \textbf{The Context:} PDH (1W SIBI) 
+    \item \textbf{The PD Array:} 1H Purge 
+    \item \textbf{Entry TF:} 5M CISD + 3DP
+\end{itemize}
+  \vspace{0.2cm}
+\subsection*{$\rightarrow$ Error/ Mistakes}
+  \vspace{0.2cm}
+\begin{itemize}
+    \item[\(\square\)] Missing Rules
+    \item[\(\square\)] No clear DOL
+    \item[$\checkmark$] Personal Issues
+    \item[\(\square\)] Bad Management
+    \item[\(\square\)] Out of Session
+\end{itemize}
 \end{minipage}
 \hfill
-\begin{minipage}{0.35\textwidth}
-  \includegraphics[width=0.8\textwidth]{~/Pictures/latex/intro.png}
-  % \caption{Trade Excution.}
+\begin{minipage}{0.25\textwidth}
+  \includegraphics[width=\textwidth]{~/Pictures/latex/intro.png}
   \label{fig:image}
 \end{minipage}
-\end{figure}
+  \vspace{1.2cm}
 
-\vspace{1cm}
+\begin{table}[h]
+    \centering
+    \begin{tabularx}{\textwidth}{XXXXXX}
+        \toprule
+        Column 1 & Column 2 & Column 3 & Column 4 & Column 5 & Column 6 \\
+        \midrule
+        Data 1 & Data 2 & Data 3 & Data 4 & Data 5 & Data 6 \\
+        \bottomrule
+    \end{tabularx}
+\end{table}
+\vspace{0.8cm}
+
 
 \begin{center}
 \begin{mdframed}[style=MyQuoteFrame]
-  \textbf{Note :} $\rightarrow$ Nice Setup th eonly proble is i took a buy first with low risk then i see this setup after SL,\\\\
-  I would say i didn't manage this trade good enough bc i try to do traling stop to protect my self but its all about the first trade bc i didn't want to loss more than what in my risk plan per this day so.\\
-  but over all i didn't break my risk management rules thats the most important thing,
+  \textbf{Note :} $\rightarrow$ Clean Entry, After the Respect of 15M SIBI + 5m CISD.
 \end{mdframed}
 \end{center}
-
-
 \newpage
 
 \centering
-\begin{figure}[h!]
+\begin{figure}[h]
 % \caption{HTF Context.}
 \begin{adjustbox}{width=1.1\textwidth,center}
-  \includegraphics{~/Pictures/latex/daily.png}
+  \includegraphics{~/Pictures/latex/Daily-TF.png}
 \end{adjustbox}
   % \caption{Daily Timeframe}
   \label{fig:image}
 \end{figure}
 
-
-\begin{figure}[h!]
+\begin{figure}[h]
 % \caption{HTF Context.}
 \begin{adjustbox}{width=1.1\textwidth,center}
-  \includegraphics{~/Pictures/latex/4h-TF.png}
+  \includegraphics{~/Pictures/latex/1H-TF.png}
 \end{adjustbox}
   % \caption{Daily Timeframe}
   \label{fig:image}
 \end{figure}
 
+% \begin{figure}[h]
+% % \caption{MTF Narrative}
+%   \begin{adjustbox}{width=1.1\textwidth,center}
+%   \includegraphics{~/Pictures/latex/1H.png}
+% \end{adjustbox}
+%   \label{fig:image}
+% \end{figure}
 
-\begin{figure}[h!]
-% \caption{MTF Narrative}
-  \begin{adjustbox}{width=1.1\textwidth,center}
-  \includegraphics{~/Pictures/latex/1H.png}
-\end{adjustbox}
-  \label{fig:image}
-\end{figure}
 \newpage
 
-
-\( \rightrightarrows \) The Entry : |  15M IFVG + SMT
-\begin{figure}[h!]
+\( \rightrightarrows \) The Entry : |  5M CISD + 3DP
+\begin{figure}[h]
   \begin{adjustbox}{width=1.1\textwidth,center}
-  \includegraphics{~/Pictures/latex/ENTRY.png}
+  \includegraphics{~/Pictures/latex/The-Entry.png}
 \end{adjustbox}
   % \caption{Caption}
 \label{fig:image}
 \end{figure}
 
 % the other valid setup. it's A+ setup to be honest even if we trade in it in a shit range.
-% \begin{figure}[h!]
+% \begin{figure}[h]
 %   \begin{adjustbox}{width=1.08\textwidth,center}
 %   \includegraphics{~/Pictures/latex/BE.png}
 % \end{adjustbox}
 %   % \caption{Caption}
 % \label{fig:image}
 % \end{figure}
-
-
 
 \end{document}
